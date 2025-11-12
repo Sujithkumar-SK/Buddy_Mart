@@ -132,7 +132,7 @@ pipeline {
         }
         failure {
             echo "❌ Deployment failed!"
-            sh 'docker-compose logs'
+            sh 'docker ps || echo "Docker command failed"'
         }
     }
 }
