@@ -1,20 +1,5 @@
-import axios from 'axios';
+import axios from '../utils/api';
 import type { Product, ProductCreateRequest, Category } from '../types/product';
-import { cookieUtils } from '../utils/cookies';
-
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://65.2.30.236:5108/api';
-
-// Use global axios instance with interceptors
-axios.defaults.baseURL = API_BASE_URL;
-
-// Add request interceptor to global axios
-axios.interceptors.request.use((config) => {
-  const token = cookieUtils.getToken();
-  if (token) {
-    config.headers.Authorization = `Bearer ${token}`;
-  }
-  return config;
-});
 
 export const productService = {
   getProductsByVendor: async (vendorId: number): Promise<Product[]> => {

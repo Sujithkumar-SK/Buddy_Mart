@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from '../utils/api';
 import type { AuthResponse, LoginRequest, OtpVerificationResponse, RegisterRequest } from '../types/auth';
 import { cookieUtils } from '../utils/cookies';
 

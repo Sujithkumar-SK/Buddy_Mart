@@ -1,17 +1,4 @@
-import axios from 'axios';
-import { cookieUtils } from '../utils/cookies';
-
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://65.2.30.236:5108/api';
-
-axios.defaults.baseURL = API_BASE_URL;
-
-axios.interceptors.request.use((config) => {
-  const token = cookieUtils.getToken();
-  if (token) {
-    config.headers.Authorization = `Bearer ${token}`;
-  }
-  return config;
-});
+import axios from '../utils/api';
 
 export interface PaymentInitiateRequest {
   orderId: number;
