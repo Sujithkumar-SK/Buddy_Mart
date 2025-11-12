@@ -13,7 +13,8 @@ COPY Kanini.Ecommerce.Domain/*.csproj ./Kanini.Ecommerce.Domain/
 COPY Kanini.Ecommerce.Common/*.csproj ./Kanini.Ecommerce.Common/
 COPY Directory.Packages.props ./
 
-# Restore dependencies
+# Clear NuGet cache and restore dependencies
+RUN dotnet nuget locals all --clear
 RUN dotnet restore
 
 # Copy source code
@@ -21,7 +22,7 @@ COPY . .
 
 # Build and publish
 WORKDIR /src/Kanini.Ecommerce.Api
-RUN dotnet publish -c Release -o /app/publish --no-restore
+RUN dotnet publish -c Release -o /app/publish
 
 # ============================
 # Stage 2: Runtime
