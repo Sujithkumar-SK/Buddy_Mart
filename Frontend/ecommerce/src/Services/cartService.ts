@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { CartSummary, CartItem, AddToCartRequest, UpdateCartItemRequest } from '../types/cart';
 import { cookieUtils } from '../utils/cookies';
 
-const API_BASE_URL = 'http://localhost:5108/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://65.2.30.236:5108/api';
 
 // Use global axios instance with interceptors
 axios.defaults.baseURL = API_BASE_URL;
