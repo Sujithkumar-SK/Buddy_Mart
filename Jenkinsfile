@@ -84,7 +84,8 @@ pipeline {
                     echo "🚀 Deploying application..."
                     
                     # Stop existing containers
-                    docker-compose down || true
+                    docker stop ecommerce-api ecommerce-frontend || true
+                    docker rm ecommerce-api ecommerce-frontend || true
                     
                     # Create network if not exists
                     docker network create $DOCKER_NETWORK || true
@@ -93,14 +94,27 @@ pipeline {
                     docker pull $FRONTEND_IMAGE:latest
                     docker pull $BACKEND_IMAGE:latest
                     
-                    # Start application
-                    docker-compose up -d
+                    # Start backend container
+                    docker run -d --name ecommerce-api \
+                        --network $DOCKER_NETWORK \
+                        -p 5108:5108 \
+                        -e ASPNETCORE_ENVIRONMENT=Production \
+                        -e DB_CONNECTION_STRING="Server=sqlserver,1433;Database=Vendor_Ecommerce;User Id=ecommerce_user;Password=Sujith@!23;TrustServerCertificate=true;" \
+                        --restart unless-stopped \
+                        $BACKEND_IMAGE:latest
+                    
+                    # Start frontend container
+                    docker run -d --name ecommerce-frontend \
+                        --network $DOCKER_NETWORK \
+                        -p 80:80 \
+                        --restart unless-stopped \
+                        $FRONTEND_IMAGE:latest
                     
                     # Wait for containers to start
                     sleep 30
                     
                     # Check container status
-                    docker-compose ps
+                    docker ps
                 '''
             }
         }
@@ -117,7 +131,8 @@ pipeline {
                     curl -f http://localhost/health || echo "Frontend health check failed"
                     
                     # Show container logs
-                    docker-compose logs --tail=50
+                    docker logs ecommerce-api --tail=20
+                    docker logs ecommerce-frontend --tail=20
                 '''
             }
         }
