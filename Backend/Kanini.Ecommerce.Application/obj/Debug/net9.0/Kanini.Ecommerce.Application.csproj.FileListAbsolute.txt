@@ -17,3 +17,4 @@ C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kani
 C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Application\obj\Debug\net9.0\ref\Kanini.Ecommerce.Application.dll
 C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Application\bin\Debug\net9.0\Kanini.Ecommerce.Data.dll
 C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Application\bin\Debug\net9.0\Kanini.Ecommerce.Data.pdb
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Application\obj\Debug\net9.0\Kanini.Ecommerce.Application.sourcelink.json

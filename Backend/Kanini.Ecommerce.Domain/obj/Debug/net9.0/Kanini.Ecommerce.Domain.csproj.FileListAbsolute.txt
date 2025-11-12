@@ -10,3 +10,4 @@ C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kani
 C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Domain\obj\Debug\net9.0\Kanini.Ecommerce.Domain.pdb
 C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Domain\obj\Debug\net9.0\ref\Kanini.Ecommerce.Domain.dll
 C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Domain\obj\Debug\net9.0\Kanini.Ecommerce.Domain.csproj.AssemblyReference.cache
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Domain\obj\Debug\net9.0\Kanini.Ecommerce.Domain.sourcelink.json

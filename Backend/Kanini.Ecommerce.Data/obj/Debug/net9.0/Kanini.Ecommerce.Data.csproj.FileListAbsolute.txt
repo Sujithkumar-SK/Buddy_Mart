@@ -17,3 +17,4 @@ C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kani
 C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Data\obj\Debug\net9.0\ref\Kanini.Ecommerce.Data.dll
 C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Data\bin\Debug\net9.0\Kanini.Ecommerce.Data.runtimeconfig.json
 C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Data\obj\Debug\net9.0\Kanini.Ecommerce.Data.genruntimeconfig.cache
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Data\obj\Debug\net9.0\Kanini.Ecommerce.Data.sourcelink.json

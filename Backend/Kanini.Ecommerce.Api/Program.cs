@@ -1,7 +1,9 @@
 using System.Text;
 using Kanini.Ecommerce.Application;
 using Kanini.Ecommerce.Data;
+using Kanini.Ecommerce.Data.DatabaseContext;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Serilog;
 
@@ -100,6 +102,13 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+// Auto-migrate database on startup
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<EcommerceDatabaseContext>();
+    dbContext.Database.Migrate();
+}
 
 // Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
