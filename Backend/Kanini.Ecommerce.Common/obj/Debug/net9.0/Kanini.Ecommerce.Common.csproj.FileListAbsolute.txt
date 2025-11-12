@@ -1,0 +1,11 @@
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Common\bin\Debug\net9.0\Kanini.Ecommerce.Common.deps.json
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Common\bin\Debug\net9.0\Kanini.Ecommerce.Common.dll
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Common\bin\Debug\net9.0\Kanini.Ecommerce.Common.pdb
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Common\obj\Debug\net9.0\Kanini.Ecommerce.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Common\obj\Debug\net9.0\Kanini.Ecommerce.Common.AssemblyInfoInputs.cache
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Common\obj\Debug\net9.0\Kanini.Ecommerce.Common.AssemblyInfo.cs
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Common\obj\Debug\net9.0\Kanini.Ecommerce.Common.csproj.CoreCompileInputs.cache
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Common\obj\Debug\net9.0\Kanini.Ecommerce.Common.dll
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Common\obj\Debug\net9.0\refint\Kanini.Ecommerce.Common.dll
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Common\obj\Debug\net9.0\Kanini.Ecommerce.Common.pdb
+C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Common\obj\Debug\net9.0\ref\Kanini.Ecommerce.Common.dll

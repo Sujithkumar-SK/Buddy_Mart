@@ -1,0 +1,1785 @@
+2025-11-06 12:46:51.432 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 12:46:52.225 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 12:46:52.244 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 12:46:52.263 +05:30 [INF] Hosting environment: Development
+2025-11-06 12:46:52.278 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 12:47:03.891 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-06 12:47:11.912 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 8025.2039ms
+2025-11-06 12:47:11.962 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-bundle.js - null null
+2025-11-06 12:47:11.962 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.css - null null
+2025-11-06 12:47:12.020 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui.css - null null
+2025-11-06 12:47:12.252 +05:30 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-11-06 12:47:12.302 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.css - 200 202 text/css 340.2938ms
+2025-11-06 12:47:12.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-standalone-preset.js - null null
+2025-11-06 12:47:12.369 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-06 12:47:12.376 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui.css - 200 152035 text/css 356.5739ms
+2025-11-06 12:47:12.388 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-06 12:47:12.406 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 17.8484ms
+2025-11-06 12:47:12.412 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-06 12:47:12.428 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 119.3684ms
+2025-11-06 12:47:12.600 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-06 12:47:12.605 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 643.1022ms
+2025-11-06 12:47:13.273 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-06 12:47:13.906 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 632.0316ms
+2025-11-06 12:48:05.760 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/login - application/json 73
+2025-11-06 12:48:05.858 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 12:48:05.861 +05:30 [INF] CORS policy execution successful.
+2025-11-06 12:48:06.317 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 12:48:06.839 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Kanini.Ecommerce.Application.DTOs.LoginRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 12:48:11.109 +05:30 [INF] Login attempt started for Email: sujithkumar.kanini@outlook.com
+2025-11-06 12:48:11.135 +05:30 [INF] Login attempt started for Email: sujithkumar.kanini@outlook.com
+2025-11-06 12:48:11.683 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumar.kanini@outlook.com
+2025-11-06 12:48:18.351 +05:30 [INF] User found for Email: sujithkumar.kanini@outlook.com, UserId: 1010
+2025-11-06 12:48:18.416 +05:30 [INF] Executing stored procedure sp_ValidateUserCredentials for Email: sujithkumar.kanini@outlook.com
+2025-11-06 12:48:18.734 +05:30 [INF] Credential validation result for Email: sujithkumar.kanini@outlook.com - true
+2025-11-06 12:48:22.240 +05:30 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-11-06 12:48:25.130 +05:30 [INF] Executed DbCommand (678ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+FROM [Users] AS [u]
+WHERE [u].[IsDeleted] = CAST(0 AS BIT) AND [u].[UserId] = @__p_0
+2025-11-06 12:48:25.746 +05:30 [INF] Executed DbCommand (165ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [UpdatedOn] = @p0
+OUTPUT 1
+WHERE [UserId] = @p1;
+2025-11-06 12:48:25.897 +05:30 [INF] Creating refresh token for UserId: 1010
+2025-11-06 12:48:26.742 +05:30 [INF] Executed DbCommand (672ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (Size = 100), @p8='?' (Size = 200), @p9='?' (Size = 100), @p10='?' (Size = 500), @p11='?' (Size = 100), @p12='?' (DbType = DateTime2), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [ExpiresAt], [IsDeleted], [RevokedAt], [RevokedBy], [RevokedReason], [TenantId], [Token], [UpdatedBy], [UpdatedOn], [UserId])
+OUTPUT INSERTED.[RefreshTokenId], INSERTED.[IsRevoked]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2025-11-06 12:48:26.794 +05:30 [INF] Refresh token created successfully with Id: 2
+2025-11-06 12:48:26.861 +05:30 [INF] Executed DbCommand (49ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [LastLogin] = @p0, [UpdatedOn] = @p1
+OUTPUT 1
+WHERE [UserId] = @p2;
+2025-11-06 12:48:26.872 +05:30 [INF] Login successful for UserId: 1010
+2025-11-06 12:48:26.874 +05:30 [INF] Login successful for UserId: 1010
+2025-11-06 12:48:26.886 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.LoginResponseDto'.
+2025-11-06 12:48:26.953 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api) in 20093.4399ms
+2025-11-06 12:48:26.956 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 12:48:26.994 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/login - 200 null application/json; charset=utf-8 21234.5377ms
+2025-11-06 12:48:54.157 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - null null
+2025-11-06 12:48:54.198 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-06 12:48:54.215 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-06 12:48:54.217 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - 401 0 null 60.3347ms
+2025-11-06 12:49:50.307 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - null null
+2025-11-06 12:49:50.325 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-06 12:49:50.334 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-06 12:49:50.340 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - 401 0 null 31.8222ms
+2025-11-06 12:51:11.214 +05:30 [INF] Application is shutting down...
+2025-11-06 13:00:38.968 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 13:00:39.323 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 13:00:39.330 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 13:00:39.331 +05:30 [INF] Hosting environment: Development
+2025-11-06 13:00:39.332 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 13:00:56.237 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/login - application/json 73
+2025-11-06 13:00:56.424 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 13:00:56.499 +05:30 [INF] CORS policy execution successful.
+2025-11-06 13:00:56.985 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 13:00:57.089 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Kanini.Ecommerce.Application.DTOs.LoginRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 13:00:57.845 +05:30 [INF] Login attempt started for Email: sujithkumar.kanini@outlook.com
+2025-11-06 13:00:57.853 +05:30 [INF] Login attempt started for Email: sujithkumar.kanini@outlook.com
+2025-11-06 13:00:57.954 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumar.kanini@outlook.com
+2025-11-06 13:01:01.340 +05:30 [INF] User found for Email: sujithkumar.kanini@outlook.com, UserId: 1010
+2025-11-06 13:01:01.381 +05:30 [INF] Executing stored procedure sp_ValidateUserCredentials for Email: sujithkumar.kanini@outlook.com
+2025-11-06 13:01:01.435 +05:30 [INF] Credential validation result for Email: sujithkumar.kanini@outlook.com - true
+2025-11-06 13:01:03.564 +05:30 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-11-06 13:01:05.178 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+FROM [Users] AS [u]
+WHERE [u].[IsDeleted] = CAST(0 AS BIT) AND [u].[UserId] = @__p_0
+2025-11-06 13:01:05.574 +05:30 [INF] Executed DbCommand (89ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [UpdatedOn] = @p0
+OUTPUT 1
+WHERE [UserId] = @p1;
+2025-11-06 13:01:05.883 +05:30 [INF] Creating refresh token for UserId: 1010
+2025-11-06 13:01:06.248 +05:30 [INF] Executed DbCommand (112ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (Size = 100), @p8='?' (Size = 200), @p9='?' (Size = 100), @p10='?' (Size = 500), @p11='?' (Size = 100), @p12='?' (DbType = DateTime2), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [ExpiresAt], [IsDeleted], [RevokedAt], [RevokedBy], [RevokedReason], [TenantId], [Token], [UpdatedBy], [UpdatedOn], [UserId])
+OUTPUT INSERTED.[RefreshTokenId], INSERTED.[IsRevoked]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2025-11-06 13:01:06.292 +05:30 [INF] Refresh token created successfully with Id: 3
+2025-11-06 13:01:06.308 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [LastLogin] = @p0, [UpdatedOn] = @p1
+OUTPUT 1
+WHERE [UserId] = @p2;
+2025-11-06 13:01:06.324 +05:30 [INF] Login successful for UserId: 1010
+2025-11-06 13:01:06.335 +05:30 [INF] Login successful for UserId: 1010
+2025-11-06 13:01:06.356 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.LoginResponseDto'.
+2025-11-06 13:01:06.449 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api) in 9348.4204ms
+2025-11-06 13:01:06.467 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 13:01:06.500 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/login - 200 null application/json; charset=utf-8 10264.9439ms
+2025-11-06 13:01:35.624 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - null null
+2025-11-06 13:01:35.821 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 13:01:35.864 +05:30 [INF] Route matched with {action = "GetPendingVendors", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPendingVendors() on controller Kanini.Ecommerce.Api.Controllers.AdminController (Kanini.Ecommerce.Api).
+2025-11-06 13:01:35.873 +05:30 [INF] Getting pending vendors started
+2025-11-06 13:01:35.882 +05:30 [INF] Getting pending vendors started
+2025-11-06 13:01:35.904 +05:30 [INF] Getting pending vendors started
+2025-11-06 13:01:35.921 +05:30 [ERR] Database operation failed
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Kanini.Ecommerce.Data.Repositories.Admin.AdminRepository.GetPendingVendorsAsync() in C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Data\Repositories\Admin\AdminRepository.cs:line 50
+2025-11-06 13:01:35.982 +05:30 [ERR] Failed to get pending vendors: Database operation failed
+2025-11-06 13:01:35.985 +05:30 [ERR] Failed to get pending vendors: Database operation failed
+2025-11-06 13:01:36.009 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Kanini.Ecommerce.Common.Error'.
+2025-11-06 13:01:36.029 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api) in 159.5397ms
+2025-11-06 13:01:36.035 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 13:01:36.039 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - 400 null application/json; charset=utf-8 414.3915ms
+2025-11-06 13:03:16.767 +05:30 [INF] Application is shutting down...
+2025-11-06 13:03:37.726 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 13:03:38.108 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 13:03:38.117 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 13:03:38.122 +05:30 [INF] Hosting environment: Development
+2025-11-06 13:03:38.125 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 13:03:48.098 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - null null
+2025-11-06 13:03:48.194 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 13:03:48.386 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 13:03:48.424 +05:30 [INF] Route matched with {action = "GetPendingVendors", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPendingVendors() on controller Kanini.Ecommerce.Api.Controllers.AdminController (Kanini.Ecommerce.Api).
+2025-11-06 13:03:48.757 +05:30 [INF] Getting pending vendors started
+2025-11-06 13:03:48.767 +05:30 [INF] Getting pending vendors started
+2025-11-06 13:03:48.783 +05:30 [INF] Getting pending vendors started
+2025-11-06 13:03:49.678 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 13:03:49.751 +05:30 [ERR] An unexpected error occurred
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Kanini.Ecommerce.Domain.Entities.Vendor, Kanini.Ecommerce.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.PendingVendorDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Vendor -> PendingVendorDto
+Kanini.Ecommerce.Domain.Entities.Vendor -> Kanini.Ecommerce.Application.DTOs.PendingVendorDto
+   at lambda_method27(Closure, Vendor, PendingVendorDto, ResolutionContext)
+   at lambda_method26(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method26(Closure, Object, List`1, ResolutionContext)
+   at Kanini.Ecommerce.Application.Services.Admin.AdminService.GetPendingVendorsAsync() in C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Application\Services\Admin\AdminService.cs:line 44
+2025-11-06 13:03:50.098 +05:30 [ERR] Failed to get pending vendors: An unexpected error occurred
+2025-11-06 13:03:50.115 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Kanini.Ecommerce.Common.Error'.
+2025-11-06 13:03:50.178 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api) in 1705.1643ms
+2025-11-06 13:03:50.216 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 13:03:50.230 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - 400 null application/json; charset=utf-8 2134.5748ms
+2025-11-06 13:04:46.843 +05:30 [INF] Application is shutting down...
+2025-11-06 13:05:00.473 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 13:05:00.854 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 13:05:00.896 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 13:05:00.901 +05:30 [INF] Hosting environment: Development
+2025-11-06 13:05:00.903 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 13:05:07.258 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - null null
+2025-11-06 13:05:07.358 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 13:05:07.566 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 13:05:07.592 +05:30 [INF] Route matched with {action = "GetPendingVendors", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPendingVendors() on controller Kanini.Ecommerce.Api.Controllers.AdminController (Kanini.Ecommerce.Api).
+2025-11-06 13:05:07.890 +05:30 [INF] Getting pending vendors started
+2025-11-06 13:05:07.893 +05:30 [INF] Getting pending vendors started
+2025-11-06 13:05:07.909 +05:30 [INF] Getting pending vendors started
+2025-11-06 13:05:08.491 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 13:05:08.562 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 13:05:08.565 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 13:05:08.585 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.PendingVendorDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 13:05:08.699 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api) in 1090.1246ms
+2025-11-06 13:05:08.770 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 13:05:08.801 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - 200 null application/json; charset=utf-8 1544.4031ms
+2025-11-06 13:07:04.916 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Admin/vendors/approve - application/json 67
+2025-11-06 13:07:04.931 +05:30 [INF] CORS policy execution successful.
+2025-11-06 13:07:04.949 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.ApproveVendor (Kanini.Ecommerce.Api)'
+2025-11-06 13:07:04.968 +05:30 [INF] Route matched with {action = "ApproveVendor", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApproveVendor(Kanini.Ecommerce.Application.DTOs.VendorApprovalRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AdminController (Kanini.Ecommerce.Api).
+2025-11-06 13:07:05.020 +05:30 [INF] Vendor approval started for VendorId: 1001
+2025-11-06 13:07:05.026 +05:30 [INF] Vendor approval started for VendorId: 1001
+2025-11-06 13:07:05.079 +05:30 [INF] Getting vendor for approval: 1001
+2025-11-06 13:07:05.123 +05:30 [INF] Vendor approval started for VendorId: 1001
+2025-11-06 13:07:06.952 +05:30 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-11-06 13:07:08.132 +05:30 [INF] Executed DbCommand (161ms) [Parameters=[@__vendorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn]
+FROM [Vendors] AS [v]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[VendorId] = @__vendorId_0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+2025-11-06 13:07:09.074 +05:30 [INF] Executed DbCommand (474ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Boolean), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Vendors] SET [IsActive] = @p0, [Status] = @p1, [UpdatedOn] = @p2
+OUTPUT 1
+WHERE [VendorId] = @p3;
+2025-11-06 13:07:09.257 +05:30 [INF] Vendor approved successfully for VendorId: 1001
+2025-11-06 13:07:09.311 +05:30 [INF] Vendor approved successfully for VendorId: 1001
+2025-11-06 13:07:09.314 +05:30 [INF] Vendor approved successfully for VendorId: 1001
+2025-11-06 13:07:09.345 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-06 13:07:09.376 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AdminController.ApproveVendor (Kanini.Ecommerce.Api) in 4403.4657ms
+2025-11-06 13:07:09.385 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.ApproveVendor (Kanini.Ecommerce.Api)'
+2025-11-06 13:07:09.425 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Admin/vendors/approve - 200 null application/json; charset=utf-8 4509.0251ms
+2025-11-06 13:13:21.562 +05:30 [INF] Application is shutting down...
+2025-11-06 13:34:45.439 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 13:34:45.691 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 13:34:45.695 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 13:34:45.698 +05:30 [INF] Hosting environment: Development
+2025-11-06 13:34:45.700 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 13:34:50.585 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-06 13:34:51.053 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 412.0032ms
+2025-11-06 13:34:51.415 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-06 13:34:51.546 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 131.2428ms
+2025-11-06 13:34:58.034 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-06 13:34:58.052 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/favicon-32x32.png - null null
+2025-11-06 13:34:58.336 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-06 13:34:58.339 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/favicon-32x32.png - 200 628 image/png 287.0297ms
+2025-11-06 13:34:58.963 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 929.0736ms
+2025-11-06 13:35:32.838 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/login - application/json 73
+2025-11-06 13:35:32.878 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 13:35:32.882 +05:30 [INF] CORS policy execution successful.
+2025-11-06 13:35:33.134 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 13:35:33.252 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Kanini.Ecommerce.Application.DTOs.LoginRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 13:35:34.029 +05:30 [INF] Login attempt started for Email: sujithkumar.kanini@outlook.com
+2025-11-06 13:35:34.034 +05:30 [INF] Login attempt started for Email: sujithkumar.kanini@outlook.com
+2025-11-06 13:35:34.099 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumar.kanini@outlook.com
+2025-11-06 13:35:35.400 +05:30 [INF] User found for Email: sujithkumar.kanini@outlook.com, UserId: 1010
+2025-11-06 13:35:35.421 +05:30 [INF] Executing stored procedure sp_ValidateUserCredentials for Email: sujithkumar.kanini@outlook.com
+2025-11-06 13:35:35.528 +05:30 [INF] Credential validation result for Email: sujithkumar.kanini@outlook.com - true
+2025-11-06 13:35:37.689 +05:30 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-11-06 13:35:39.191 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+FROM [Users] AS [u]
+WHERE [u].[IsDeleted] = CAST(0 AS BIT) AND [u].[UserId] = @__p_0
+2025-11-06 13:35:39.806 +05:30 [INF] Executed DbCommand (195ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [UpdatedOn] = @p0
+OUTPUT 1
+WHERE [UserId] = @p1;
+2025-11-06 13:35:39.896 +05:30 [INF] Creating refresh token for UserId: 1010
+2025-11-06 13:35:40.161 +05:30 [INF] Executed DbCommand (98ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (Size = 100), @p8='?' (Size = 200), @p9='?' (Size = 100), @p10='?' (Size = 500), @p11='?' (Size = 100), @p12='?' (DbType = DateTime2), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [ExpiresAt], [IsDeleted], [RevokedAt], [RevokedBy], [RevokedReason], [TenantId], [Token], [UpdatedBy], [UpdatedOn], [UserId])
+OUTPUT INSERTED.[RefreshTokenId], INSERTED.[IsRevoked]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2025-11-06 13:35:40.223 +05:30 [INF] Refresh token created successfully with Id: 4
+2025-11-06 13:35:40.239 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [LastLogin] = @p0, [UpdatedOn] = @p1
+OUTPUT 1
+WHERE [UserId] = @p2;
+2025-11-06 13:35:40.249 +05:30 [INF] Login successful for UserId: 1010
+2025-11-06 13:35:40.252 +05:30 [INF] Login successful for UserId: 1010
+2025-11-06 13:35:40.276 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.LoginResponseDto'.
+2025-11-06 13:35:40.318 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api) in 7051.401ms
+2025-11-06 13:35:40.321 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 13:35:40.337 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/login - 200 null application/json; charset=utf-8 7498.5289ms
+2025-11-06 13:36:18.934 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/1001/approval - null null
+2025-11-06 13:36:19.194 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetVendorForApproval (Kanini.Ecommerce.Api)'
+2025-11-06 13:36:19.311 +05:30 [INF] Route matched with {action = "GetVendorForApproval", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVendorForApproval(Int32) on controller Kanini.Ecommerce.Api.Controllers.AdminController (Kanini.Ecommerce.Api).
+2025-11-06 13:36:19.327 +05:30 [INF] Getting vendor for approval started for VendorId: 1001
+2025-11-06 13:36:19.333 +05:30 [INF] Getting vendor for approval started for VendorId: 1001
+2025-11-06 13:36:19.359 +05:30 [INF] Getting vendor for approval started for VendorId: 1001
+2025-11-06 13:36:19.607 +05:30 [INF] Getting vendor for approval completed for VendorId: 1001
+2025-11-06 13:36:19.647 +05:30 [INF] Getting vendor for approval completed for VendorId: 1001
+2025-11-06 13:36:19.659 +05:30 [INF] Getting vendor for approval completed for VendorId: 1001
+2025-11-06 13:36:19.680 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.VendorApprovalDetailsDto'.
+2025-11-06 13:36:19.796 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AdminController.GetVendorForApproval (Kanini.Ecommerce.Api) in 480.504ms
+2025-11-06 13:36:19.810 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetVendorForApproval (Kanini.Ecommerce.Api)'
+2025-11-06 13:36:19.812 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/1001/approval - 200 null application/json; charset=utf-8 878.7748ms
+2025-11-06 13:37:34.126 +05:30 [INF] Application is shutting down...
+2025-11-06 16:12:16.771 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 16:12:17.001 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 16:12:17.008 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 16:12:17.010 +05:30 [INF] Hosting environment: Development
+2025-11-06 16:12:17.013 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 16:12:36.297 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-06 16:12:36.743 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 396.3961ms
+2025-11-06 16:12:36.958 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-06 16:12:36.979 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 21.5296ms
+2025-11-06 16:12:37.989 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-06 16:12:38.528 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 538.0777ms
+2025-11-06 16:26:30.744 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-06 16:26:30.761 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 15.9776ms
+2025-11-06 16:26:30.880 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-06 16:26:30.894 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 13.8544ms
+2025-11-06 16:26:31.157 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-06 16:26:31.265 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 107.9763ms
+2025-11-06 16:37:35.452 +05:30 [INF] Application is shutting down...
+2025-11-06 17:33:48.088 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 17:33:48.376 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 17:33:48.382 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 17:33:48.387 +05:30 [INF] Hosting environment: Development
+2025-11-06 17:33:48.391 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 17:33:53.523 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-06 17:33:53.744 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 222.4331ms
+2025-11-06 17:33:53.824 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-06 17:33:53.842 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 15.4138ms
+2025-11-06 17:33:54.190 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-06 17:33:54.599 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 408.6728ms
+2025-11-06 17:39:47.945 +05:30 [INF] Application is shutting down...
+2025-11-06 17:40:33.699 +05:30 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-11-06 17:40:37.822 +05:30 [INF] Executed DbCommand (1,972ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Vendor_Ecommerce];
+2025-11-06 17:40:38.181 +05:30 [INF] Executed DbCommand (346ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Vendor_Ecommerce] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-11-06 17:40:38.224 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-06 17:40:38.236 +05:30 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-11-06 17:40:38.321 +05:30 [INF] Executed DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-11-06 17:40:38.446 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-11-06 17:40:38.470 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-06 17:40:38.501 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-11-06 17:40:38.535 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-11-06 17:40:38.600 +05:30 [INF] Applying migration '20251105063643_InitialCreate'.
+2025-11-06 17:40:38.885 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [CategoryId] int NOT NULL IDENTITY,
+    [Name] NVARCHAR(100) NOT NULL,
+    [Description] NVARCHAR(500) NULL,
+    [ImagePath] NVARCHAR(500) NULL,
+    [IsActive] BIT NOT NULL,
+    [ParentCategoryId] int NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([CategoryId]),
+    CONSTRAINT [FK_Categories_Categories_ParentCategoryId] FOREIGN KEY ([ParentCategoryId]) REFERENCES [Categories] ([CategoryId]) ON DELETE NO ACTION
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Product categories with hierarchical support';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Categories';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Categories', 'COLUMN', N'TenantId';
+2025-11-06 17:40:38.903 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SubscriptionPlans] (
+    [PlanId] int NOT NULL IDENTITY,
+    [PlanName] NVARCHAR(100) NOT NULL,
+    [Description] NVARCHAR(500) NULL,
+    [Price] DECIMAL(18,2) NOT NULL,
+    [MaxProducts] INT NOT NULL,
+    [DurationDays] INT NOT NULL,
+    [IsActive] BIT NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_SubscriptionPlans] PRIMARY KEY ([PlanId])
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Master subscription plans managed by admin';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'SubscriptionPlans';
+SET @description = N'Duration in days';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'SubscriptionPlans', 'COLUMN', N'DurationDays';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'SubscriptionPlans', 'COLUMN', N'TenantId';
+2025-11-06 17:40:38.940 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [UserId] int NOT NULL IDENTITY,
+    [Email] NVARCHAR(150) NOT NULL,
+    [PasswordHash] NVARCHAR(256) NOT NULL,
+    [Phone] NVARCHAR(10) NOT NULL,
+    [Role] INT NOT NULL,
+    [IsEmailVerified] BIT NOT NULL,
+    [IsActive] BIT NOT NULL,
+    [LastLogin] datetime2 NULL,
+    [FailedLoginAttempts] int NOT NULL,
+    [LockoutEnd] datetime2 NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([UserId])
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Last successful login timestamp';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Users', 'COLUMN', N'LastLogin';
+SET @description = N'Number of failed login attempts';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Users', 'COLUMN', N'FailedLoginAttempts';
+SET @description = N'Account lockout until this time';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Users', 'COLUMN', N'LockoutEnd';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Users', 'COLUMN', N'TenantId';
+2025-11-06 17:40:38.965 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Customers] (
+    [CustomerId] int NOT NULL IDENTITY,
+    [FirstName] NVARCHAR(50) NOT NULL,
+    [MiddleName] NVARCHAR(50) NULL,
+    [LastName] NVARCHAR(50) NOT NULL,
+    [DateOfBirth] DATE NULL,
+    [Gender] INT NULL,
+    [Address] NVARCHAR(500) NULL,
+    [City] NVARCHAR(100) NULL,
+    [State] NVARCHAR(100) NULL,
+    [PinCode] NVARCHAR(10) NULL,
+    [IsActive] BIT NOT NULL,
+    [UserId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_Customers] PRIMARY KEY ([CustomerId]),
+    CONSTRAINT [FK_Customers_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Customer profile information';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Customers';
+SET @description = N'Customer''s first name';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Customers', 'COLUMN', N'FirstName';
+SET @description = N'Customer''s middle name';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Customers', 'COLUMN', N'MiddleName';
+SET @description = N'Customer''s last name';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Customers', 'COLUMN', N'LastName';
+SET @description = N'Customer''s date of birth';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Customers', 'COLUMN', N'DateOfBirth';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Customers', 'COLUMN', N'TenantId';
+2025-11-06 17:40:38.985 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [RefreshTokens] (
+    [RefreshTokenId] int NOT NULL IDENTITY,
+    [Token] NVARCHAR(500) NOT NULL,
+    [ExpiresAt] DATETIME2 NOT NULL,
+    [IsRevoked] BIT NOT NULL DEFAULT CAST(0 AS BIT),
+    [RevokedAt] DATETIME2 NULL,
+    [RevokedBy] NVARCHAR(100) NULL,
+    [RevokedReason] NVARCHAR(200) NULL,
+    [UserId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_RefreshTokens] PRIMARY KEY ([RefreshTokenId]),
+    CONSTRAINT [FK_RefreshTokens_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Refresh tokens for JWT authentication';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'RefreshTokens';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'RefreshTokens', 'COLUMN', N'TenantId';
+2025-11-06 17:40:39.024 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Vendors] (
+    [VendorId] int NOT NULL IDENTITY,
+    [BusinessName] NVARCHAR(150) NOT NULL,
+    [OwnerName] NVARCHAR(100) NOT NULL,
+    [BusinessLicenseNumber] NVARCHAR(50) NOT NULL,
+    [BusinessAddress] NVARCHAR(500) NOT NULL,
+    [City] NVARCHAR(100) NULL,
+    [State] NVARCHAR(100) NULL,
+    [PinCode] NVARCHAR(10) NULL,
+    [TaxRegistrationNumber] NVARCHAR(50) NULL,
+    [DocumentPath] NVARCHAR(500) NOT NULL,
+    [DocumentStatus] INT NOT NULL,
+    [RejectionReason] NVARCHAR(500) NULL,
+    [VerifiedOn] DATETIME2 NULL,
+    [VerifiedBy] NVARCHAR(100) NULL,
+    [CurrentPlan] INT NOT NULL,
+    [Status] INT NOT NULL,
+    [IsActive] BIT NOT NULL,
+    [UserId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL DEFAULT (NEWID()),
+    CONSTRAINT [PK_Vendors] PRIMARY KEY ([VendorId]),
+    CONSTRAINT [FK_Vendors_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Vendor information and business details';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Vendors';
+SET @description = N'Registration document file path';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Vendors', 'COLUMN', N'DocumentPath';
+SET @description = N'Document verification status';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Vendors', 'COLUMN', N'DocumentStatus';
+SET @description = N'Reason for document rejection';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Vendors', 'COLUMN', N'RejectionReason';
+SET @description = N'Document verification timestamp';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Vendors', 'COLUMN', N'VerifiedOn';
+SET @description = N'Admin who verified the document';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Vendors', 'COLUMN', N'VerifiedBy';
+SET @description = N'Current subscription plan of the vendor';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Vendors', 'COLUMN', N'CurrentPlan';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Vendors', 'COLUMN', N'TenantId';
+2025-11-06 17:40:39.070 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [OrderId] int NOT NULL IDENTITY,
+    [OrderNumber] NVARCHAR(20) NOT NULL,
+    [TotalAmount] DECIMAL(18,2) NOT NULL,
+    [DiscountAmount] DECIMAL(18,2) NULL,
+    [ShippingAmount] DECIMAL(18,2) NULL,
+    [TaxAmount] DECIMAL(18,2) NULL,
+    [Status] INT NOT NULL,
+    [ShippingAddress] NVARCHAR(500) NOT NULL,
+    [ShippingCity] NVARCHAR(100) NULL,
+    [ShippingState] NVARCHAR(100) NULL,
+    [ShippingPinCode] NVARCHAR(10) NULL,
+    [ShippingPhone] NVARCHAR(15) NULL,
+    [ShippedDate] DATETIME2 NULL,
+    [DeliveredDate] DATETIME2 NULL,
+    [Notes] NVARCHAR(500) NULL,
+    [CustomerId] int NOT NULL,
+    [VendorId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([OrderId]),
+    CONSTRAINT [FK_Orders_Customers_CustomerId] FOREIGN KEY ([CustomerId]) REFERENCES [Customers] ([CustomerId]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_Vendors_VendorId] FOREIGN KEY ([VendorId]) REFERENCES [Vendors] ([VendorId]) ON DELETE NO ACTION
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Customer orders and order management';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Orders';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Orders', 'COLUMN', N'TenantId';
+2025-11-06 17:40:39.096 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [ProductId] int NOT NULL IDENTITY,
+    [Name] NVARCHAR(200) NOT NULL,
+    [Description] NVARCHAR(1000) NULL,
+    [SKU] NVARCHAR(50) NOT NULL,
+    [Price] DECIMAL(18,2) NOT NULL,
+    [DiscountPrice] DECIMAL(18,2) NULL,
+    [StockQuantity] INT NOT NULL,
+    [MinStockLevel] INT NULL,
+    [Brand] nvarchar(100) NULL,
+    [Weight] nvarchar(50) NULL,
+    [Dimensions] nvarchar(100) NULL,
+    [Status] INT NOT NULL,
+    [IsActive] BIT NOT NULL,
+    [VendorId] int NOT NULL,
+    [CategoryId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([ProductId]),
+    CONSTRAINT [FK_Products_Categories_CategoryId] FOREIGN KEY ([CategoryId]) REFERENCES [Categories] ([CategoryId]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Products_Vendors_VendorId] FOREIGN KEY ([VendorId]) REFERENCES [Vendors] ([VendorId]) ON DELETE NO ACTION
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Product catalog and inventory management';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Products';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Products', 'COLUMN', N'TenantId';
+2025-11-06 17:40:39.117 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Subscriptions] (
+    [SubscriptionId] int NOT NULL IDENTITY,
+    [StartDate] DATE NOT NULL,
+    [EndDate] DATE NOT NULL,
+    [IsActive] BIT NOT NULL,
+    [PlanId] int NOT NULL,
+    [VendorId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_Subscriptions] PRIMARY KEY ([SubscriptionId]),
+    CONSTRAINT [FK_Subscriptions_SubscriptionPlans_PlanId] FOREIGN KEY ([PlanId]) REFERENCES [SubscriptionPlans] ([PlanId]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Subscriptions_Vendors_VendorId] FOREIGN KEY ([VendorId]) REFERENCES [Vendors] ([VendorId]) ON DELETE CASCADE
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Vendor subscription instances';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Subscriptions';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Subscriptions', 'COLUMN', N'TenantId';
+2025-11-06 17:40:39.137 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [PaymentId] int NOT NULL IDENTITY,
+    [Amount] DECIMAL(18,2) NOT NULL,
+    [PaymentMethod] INT NOT NULL,
+    [Status] INT NOT NULL,
+    [PaymentDate] DATETIME2 NOT NULL,
+    [TransactionId] NVARCHAR(100) NOT NULL,
+    [FailureReason] NVARCHAR(500) NULL,
+    [OrderId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([PaymentId]),
+    CONSTRAINT [FK_Payments_Orders_OrderId] FOREIGN KEY ([OrderId]) REFERENCES [Orders] ([OrderId]) ON DELETE CASCADE
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Payment processing and transaction details';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Payments';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Payments', 'COLUMN', N'TenantId';
+2025-11-06 17:40:39.152 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Shipping] (
+    [ShippingId] int NOT NULL IDENTITY,
+    [TrackingNumber] NVARCHAR(100) NULL,
+    [CourierService] NVARCHAR(100) NULL,
+    [Status] INT NOT NULL,
+    [ShippedDate] DATETIME2 NULL,
+    [EstimatedDeliveryDate] DATETIME2 NULL,
+    [ActualDeliveryDate] DATETIME2 NULL,
+    [DeliveryNotes] NVARCHAR(500) NULL,
+    [OrderId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_Shipping] PRIMARY KEY ([ShippingId]),
+    CONSTRAINT [FK_Shipping_Orders_OrderId] FOREIGN KEY ([OrderId]) REFERENCES [Orders] ([OrderId]) ON DELETE CASCADE
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Order shipping and delivery tracking';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Shipping';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Shipping', 'COLUMN', N'TenantId';
+2025-11-06 17:40:39.166 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Cart] (
+    [CartId] int NOT NULL IDENTITY,
+    [Quantity] INT NOT NULL,
+    [CustomerId] int NOT NULL,
+    [ProductId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_Cart] PRIMARY KEY ([CartId]),
+    CONSTRAINT [FK_Cart_Customers_CustomerId] FOREIGN KEY ([CustomerId]) REFERENCES [Customers] ([CustomerId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Cart_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([ProductId]) ON DELETE CASCADE
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Shopping cart items for customers';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Cart';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Cart', 'COLUMN', N'TenantId';
+2025-11-06 17:40:39.185 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [OrderItemId] int NOT NULL IDENTITY,
+    [Quantity] INT NOT NULL,
+    [UnitPrice] DECIMAL(18,2) NOT NULL,
+    [DiscountAmount] DECIMAL(18,2) NULL,
+    [TotalPrice] DECIMAL(18,2) NOT NULL,
+    [OrderId] int NOT NULL,
+    [ProductId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([OrderItemId]),
+    CONSTRAINT [FK_OrderItems_Orders_OrderId] FOREIGN KEY ([OrderId]) REFERENCES [Orders] ([OrderId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderItems_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([ProductId]) ON DELETE NO ACTION
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Individual items within an order';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'OrderItems';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'OrderItems', 'COLUMN', N'TenantId';
+2025-11-06 17:40:39.199 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ProductImages] (
+    [ImageId] int NOT NULL IDENTITY,
+    [ImagePath] NVARCHAR(500) NOT NULL,
+    [AltText] NVARCHAR(200) NULL,
+    [DisplayOrder] INT NOT NULL,
+    [IsPrimary] BIT NOT NULL,
+    [ProductId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_ProductImages] PRIMARY KEY ([ImageId]),
+    CONSTRAINT [FK_ProductImages_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([ProductId]) ON DELETE CASCADE
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Product images for marketing and display';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'ProductImages';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'ProductImages', 'COLUMN', N'TenantId';
+2025-11-06 17:40:39.216 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [ReviewId] int NOT NULL IDENTITY,
+    [Rating] INT NOT NULL,
+    [Comment] NVARCHAR(1000) NULL,
+    [IsVerifiedPurchase] BIT NOT NULL,
+    [IsActive] BIT NOT NULL,
+    [CustomerId] int NOT NULL,
+    [ProductId] int NOT NULL,
+    [CreatedBy] NVARCHAR(100) NOT NULL,
+    [CreatedOn] DATETIME2 NOT NULL,
+    [UpdatedBy] NVARCHAR(100) NULL,
+    [UpdatedOn] DATETIME2 NULL,
+    [IsDeleted] BIT NOT NULL,
+    [DeletedOn] DATETIME2 NULL,
+    [DeletedBy] NVARCHAR(100) NULL,
+    [TenantId] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([ReviewId]),
+    CONSTRAINT [FK_Reviews_Customers_CustomerId] FOREIGN KEY ([CustomerId]) REFERENCES [Customers] ([CustomerId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([ProductId]) ON DELETE CASCADE
+);
+DECLARE @defaultSchema AS sysname;
+SET @defaultSchema = SCHEMA_NAME();
+DECLARE @description AS sql_variant;
+SET @description = N'Customer product reviews with tenant isolation';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Reviews';
+SET @description = N'Tenant isolation - each vendor has unique tenant ID';
+EXEC sp_addextendedproperty 'MS_Description', @description, 'SCHEMA', @defaultSchema, 'TABLE', N'Reviews', 'COLUMN', N'TenantId';
+2025-11-06 17:40:39.390 +05:30 [INF] Executed DbCommand (167ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CategoryId', N'CreatedBy', N'CreatedOn', N'DeletedBy', N'DeletedOn', N'Description', N'ImagePath', N'IsActive', N'IsDeleted', N'Name', N'ParentCategoryId', N'TenantId', N'UpdatedBy', N'UpdatedOn') AND [object_id] = OBJECT_ID(N'[Categories]'))
+    SET IDENTITY_INSERT [Categories] ON;
+INSERT INTO [Categories] ([CategoryId], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [Description], [ImagePath], [IsActive], [IsDeleted], [Name], [ParentCategoryId], [TenantId], [UpdatedBy], [UpdatedOn])
+VALUES (1, N'System', '2024-01-01T00:00:00.0000000', NULL, NULL, N'Electronic devices and gadgets', NULL, CAST(1 AS BIT), CAST(0 AS BIT), N'Electronics', NULL, N'admin', NULL, NULL);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CategoryId', N'CreatedBy', N'CreatedOn', N'DeletedBy', N'DeletedOn', N'Description', N'ImagePath', N'IsActive', N'IsDeleted', N'Name', N'ParentCategoryId', N'TenantId', N'UpdatedBy', N'UpdatedOn') AND [object_id] = OBJECT_ID(N'[Categories]'))
+    SET IDENTITY_INSERT [Categories] OFF;
+2025-11-06 17:40:39.442 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'PlanId', N'CreatedBy', N'CreatedOn', N'DeletedBy', N'DeletedOn', N'Description', N'DurationDays', N'IsActive', N'IsDeleted', N'MaxProducts', N'PlanName', N'Price', N'TenantId', N'UpdatedBy', N'UpdatedOn') AND [object_id] = OBJECT_ID(N'[SubscriptionPlans]'))
+    SET IDENTITY_INSERT [SubscriptionPlans] ON;
+INSERT INTO [SubscriptionPlans] ([PlanId], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [Description], [DurationDays], [IsActive], [IsDeleted], [MaxProducts], [PlanName], [Price], [TenantId], [UpdatedBy], [UpdatedOn])
+VALUES (1, N'System', '2024-01-01T00:00:00.0000000', NULL, NULL, N'Basic plan with 10 products', 30, CAST(1 AS BIT), CAST(0 AS BIT), 10, N'Basic', 999.0, N'admin', NULL, NULL),
+(2, N'System', '2024-01-01T00:00:00.0000000', NULL, NULL, N'Standard plan with 50 products', 30, CAST(1 AS BIT), CAST(0 AS BIT), 50, N'Standard', 2999.0, N'admin', NULL, NULL);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'PlanId', N'CreatedBy', N'CreatedOn', N'DeletedBy', N'DeletedOn', N'Description', N'DurationDays', N'IsActive', N'IsDeleted', N'MaxProducts', N'PlanName', N'Price', N'TenantId', N'UpdatedBy', N'UpdatedOn') AND [object_id] = OBJECT_ID(N'[SubscriptionPlans]'))
+    SET IDENTITY_INSERT [SubscriptionPlans] OFF;
+2025-11-06 17:40:39.478 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'UserId', N'CreatedBy', N'CreatedOn', N'DeletedBy', N'DeletedOn', N'Email', N'FailedLoginAttempts', N'IsActive', N'IsDeleted', N'IsEmailVerified', N'LastLogin', N'LockoutEnd', N'PasswordHash', N'Phone', N'Role', N'TenantId', N'UpdatedBy', N'UpdatedOn') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] ON;
+INSERT INTO [Users] ([UserId], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [Email], [FailedLoginAttempts], [IsActive], [IsDeleted], [IsEmailVerified], [LastLogin], [LockoutEnd], [PasswordHash], [Phone], [Role], [TenantId], [UpdatedBy], [UpdatedOn])
+VALUES (1, N'System', '2024-01-01T00:00:00.0000000', NULL, NULL, N'admin@ecommerce.com', 0, CAST(1 AS BIT), CAST(0 AS BIT), CAST(1 AS BIT), NULL, NULL, N'hashedpassword123', N'9876543210', 3, N'admin', NULL, NULL),
+(2, N'System', '2024-01-01T00:00:00.0000000', NULL, NULL, N'customer1@gmail.com', 0, CAST(1 AS BIT), CAST(0 AS BIT), CAST(1 AS BIT), NULL, NULL, N'hashedpassword123', N'9876543211', 1, N'vendor1', NULL, NULL),
+(3, N'System', '2024-01-01T00:00:00.0000000', NULL, NULL, N'vendor1@gmail.com', 0, CAST(1 AS BIT), CAST(0 AS BIT), CAST(1 AS BIT), NULL, NULL, N'hashedpassword123', N'9876543212', 2, N'vendor1', NULL, NULL);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'UserId', N'CreatedBy', N'CreatedOn', N'DeletedBy', N'DeletedOn', N'Email', N'FailedLoginAttempts', N'IsActive', N'IsDeleted', N'IsEmailVerified', N'LastLogin', N'LockoutEnd', N'PasswordHash', N'Phone', N'Role', N'TenantId', N'UpdatedBy', N'UpdatedOn') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] OFF;
+2025-11-06 17:40:39.520 +05:30 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CategoryId', N'CreatedBy', N'CreatedOn', N'DeletedBy', N'DeletedOn', N'Description', N'ImagePath', N'IsActive', N'IsDeleted', N'Name', N'ParentCategoryId', N'TenantId', N'UpdatedBy', N'UpdatedOn') AND [object_id] = OBJECT_ID(N'[Categories]'))
+    SET IDENTITY_INSERT [Categories] ON;
+INSERT INTO [Categories] ([CategoryId], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [Description], [ImagePath], [IsActive], [IsDeleted], [Name], [ParentCategoryId], [TenantId], [UpdatedBy], [UpdatedOn])
+VALUES (2, N'System', '2024-01-01T00:00:00.0000000', NULL, NULL, N'Mobile phones and accessories', NULL, CAST(1 AS BIT), CAST(0 AS BIT), N'Smartphones', 1, N'admin', NULL, NULL);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CategoryId', N'CreatedBy', N'CreatedOn', N'DeletedBy', N'DeletedOn', N'Description', N'ImagePath', N'IsActive', N'IsDeleted', N'Name', N'ParentCategoryId', N'TenantId', N'UpdatedBy', N'UpdatedOn') AND [object_id] = OBJECT_ID(N'[Categories]'))
+    SET IDENTITY_INSERT [Categories] OFF;
+2025-11-06 17:40:39.560 +05:30 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CustomerId', N'Address', N'City', N'CreatedBy', N'CreatedOn', N'DateOfBirth', N'DeletedBy', N'DeletedOn', N'FirstName', N'Gender', N'IsActive', N'IsDeleted', N'LastName', N'MiddleName', N'PinCode', N'State', N'TenantId', N'UpdatedBy', N'UpdatedOn', N'UserId') AND [object_id] = OBJECT_ID(N'[Customers]'))
+    SET IDENTITY_INSERT [Customers] ON;
+INSERT INTO [Customers] ([CustomerId], [Address], [City], [CreatedBy], [CreatedOn], [DateOfBirth], [DeletedBy], [DeletedOn], [FirstName], [Gender], [IsActive], [IsDeleted], [LastName], [MiddleName], [PinCode], [State], [TenantId], [UpdatedBy], [UpdatedOn], [UserId])
+VALUES (1, N'456 Oak St, Chennai', N'Chennai', N'System', '2024-01-01T00:00:00.0000000', '1990-05-15T00:00:00.0000000', NULL, NULL, N'Jane', 2, CAST(1 AS BIT), CAST(0 AS BIT), N'Smith', NULL, N'600002', N'Tamil Nadu', N'vendor1', NULL, NULL, 2);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CustomerId', N'Address', N'City', N'CreatedBy', N'CreatedOn', N'DateOfBirth', N'DeletedBy', N'DeletedOn', N'FirstName', N'Gender', N'IsActive', N'IsDeleted', N'LastName', N'MiddleName', N'PinCode', N'State', N'TenantId', N'UpdatedBy', N'UpdatedOn', N'UserId') AND [object_id] = OBJECT_ID(N'[Customers]'))
+    SET IDENTITY_INSERT [Customers] OFF;
+2025-11-06 17:40:39.610 +05:30 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'VendorId', N'BusinessAddress', N'BusinessLicenseNumber', N'BusinessName', N'City', N'CreatedBy', N'CreatedOn', N'CurrentPlan', N'DeletedBy', N'DeletedOn', N'DocumentPath', N'DocumentStatus', N'IsActive', N'IsDeleted', N'OwnerName', N'PinCode', N'RejectionReason', N'State', N'Status', N'TaxRegistrationNumber', N'TenantId', N'UpdatedBy', N'UpdatedOn', N'UserId', N'VerifiedBy', N'VerifiedOn') AND [object_id] = OBJECT_ID(N'[Vendors]'))
+    SET IDENTITY_INSERT [Vendors] ON;
+INSERT INTO [Vendors] ([VendorId], [BusinessAddress], [BusinessLicenseNumber], [BusinessName], [City], [CreatedBy], [CreatedOn], [CurrentPlan], [DeletedBy], [DeletedOn], [DocumentPath], [DocumentStatus], [IsActive], [IsDeleted], [OwnerName], [PinCode], [RejectionReason], [State], [Status], [TaxRegistrationNumber], [TenantId], [UpdatedBy], [UpdatedOn], [UserId], [VerifiedBy], [VerifiedOn])
+VALUES (1, N'123 Main St, Chennai', N'BL123456', N'Tech Store', N'Chennai', N'System', '2024-01-01T00:00:00.0000000', 1, NULL, NULL, N'/docs/license.pdf', 2, CAST(1 AS BIT), CAST(0 AS BIT), N'John Doe', N'600001', NULL, N'Tamil Nadu', 1, NULL, N'vendor1', NULL, NULL, 3, N'Admin', '2024-01-01T00:00:00.0000000');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'VendorId', N'BusinessAddress', N'BusinessLicenseNumber', N'BusinessName', N'City', N'CreatedBy', N'CreatedOn', N'CurrentPlan', N'DeletedBy', N'DeletedOn', N'DocumentPath', N'DocumentStatus', N'IsActive', N'IsDeleted', N'OwnerName', N'PinCode', N'RejectionReason', N'State', N'Status', N'TaxRegistrationNumber', N'TenantId', N'UpdatedBy', N'UpdatedOn', N'UserId', N'VerifiedBy', N'VerifiedOn') AND [object_id] = OBJECT_ID(N'[Vendors]'))
+    SET IDENTITY_INSERT [Vendors] OFF;
+2025-11-06 17:40:39.664 +05:30 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Cart_CustomerId] ON [Cart] ([CustomerId]);
+2025-11-06 17:40:39.670 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Cart_CustomerId_ProductId] ON [Cart] ([CustomerId], [ProductId]);
+2025-11-06 17:40:39.676 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Cart_ProductId] ON [Cart] ([ProductId]);
+2025-11-06 17:40:39.682 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Cart_TenantId] ON [Cart] ([TenantId]);
+2025-11-06 17:40:39.899 +05:30 [INF] Executed DbCommand (210ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Categories_Name] ON [Categories] ([Name]);
+2025-11-06 17:40:39.908 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Categories_ParentCategoryId] ON [Categories] ([ParentCategoryId]);
+2025-11-06 17:40:39.918 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Customers_TenantId] ON [Customers] ([TenantId]);
+2025-11-06 17:40:39.926 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Customers_UserId] ON [Customers] ([UserId]);
+2025-11-06 17:40:39.933 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_OrderId] ON [OrderItems] ([OrderId]);
+2025-11-06 17:40:39.941 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_OrderItems_OrderId_ProductId] ON [OrderItems] ([OrderId], [ProductId]);
+2025-11-06 17:40:39.950 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_ProductId] ON [OrderItems] ([ProductId]);
+2025-11-06 17:40:39.956 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Orders_CustomerId] ON [Orders] ([CustomerId]);
+2025-11-06 17:40:39.964 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Orders_OrderNumber] ON [Orders] ([OrderNumber]);
+2025-11-06 17:40:40.024 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Orders_VendorId] ON [Orders] ([VendorId]);
+2025-11-06 17:40:40.031 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Payments_OrderId] ON [Payments] ([OrderId]);
+2025-11-06 17:40:40.038 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Payments_PaymentDate] ON [Payments] ([PaymentDate]);
+2025-11-06 17:40:40.048 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Payments_Status] ON [Payments] ([Status]);
+2025-11-06 17:40:40.056 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Payments_TransactionId] ON [Payments] ([TransactionId]);
+2025-11-06 17:40:40.064 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Payments_TransactionId1] ON [Payments] ([TransactionId]);
+2025-11-06 17:40:40.072 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductImages_DisplayOrder] ON [ProductImages] ([DisplayOrder]);
+2025-11-06 17:40:40.080 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductImages_ProductId] ON [ProductImages] ([ProductId]);
+2025-11-06 17:40:40.089 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductImages_ProductId_IsPrimary] ON [ProductImages] ([ProductId], [IsPrimary]);
+2025-11-06 17:40:40.098 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_CategoryId] ON [Products] ([CategoryId]);
+2025-11-06 17:40:40.108 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Products_SKU] ON [Products] ([SKU]);
+2025-11-06 17:40:40.116 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_Status] ON [Products] ([Status]);
+2025-11-06 17:40:40.122 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_TenantId] ON [Products] ([TenantId]);
+2025-11-06 17:40:40.128 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_TenantId_VendorId] ON [Products] ([TenantId], [VendorId]);
+2025-11-06 17:40:40.138 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_VendorId] ON [Products] ([VendorId]);
+2025-11-06 17:40:40.143 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_RefreshTokens_ExpiresAt] ON [RefreshTokens] ([ExpiresAt]);
+2025-11-06 17:40:40.152 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_RefreshTokens_Token] ON [RefreshTokens] ([Token]);
+2025-11-06 17:40:40.158 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_RefreshTokens_UserId] ON [RefreshTokens] ([UserId]);
+2025-11-06 17:40:40.166 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Reviews_CustomerId] ON [Reviews] ([CustomerId]);
+2025-11-06 17:40:40.171 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Reviews_CustomerId_ProductId] ON [Reviews] ([CustomerId], [ProductId]);
+2025-11-06 17:40:40.176 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Reviews_ProductId] ON [Reviews] ([ProductId]);
+2025-11-06 17:40:40.182 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Reviews_Rating] ON [Reviews] ([Rating]);
+2025-11-06 17:40:40.191 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Reviews_TenantId] ON [Reviews] ([TenantId]);
+2025-11-06 17:40:40.197 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Shipping_OrderId] ON [Shipping] ([OrderId]);
+2025-11-06 17:40:40.205 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Shipping_ShippedDate] ON [Shipping] ([ShippedDate]);
+2025-11-06 17:40:40.210 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Shipping_Status] ON [Shipping] ([Status]);
+2025-11-06 17:40:40.232 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Shipping_TrackingNumber] ON [Shipping] ([TrackingNumber]) WHERE [TrackingNumber] IS NOT NULL;
+2025-11-06 17:40:40.243 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_SubscriptionPlans_IsActive] ON [SubscriptionPlans] ([IsActive]);
+2025-11-06 17:40:40.255 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_SubscriptionPlans_PlanName] ON [SubscriptionPlans] ([PlanName]);
+2025-11-06 17:40:40.260 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Subscriptions_PlanId] ON [Subscriptions] ([PlanId]);
+2025-11-06 17:40:40.268 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Subscriptions_VendorId] ON [Subscriptions] ([VendorId]);
+2025-11-06 17:40:40.274 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Subscriptions_VendorId_IsActive] ON [Subscriptions] ([VendorId], [IsActive]);
+2025-11-06 17:40:40.285 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Users_Email] ON [Users] ([Email]);
+2025-11-06 17:40:40.293 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Users_Phone] ON [Users] ([Phone]);
+2025-11-06 17:40:40.302 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Vendors_BusinessLicense] ON [Vendors] ([BusinessLicenseNumber]);
+2025-11-06 17:40:40.316 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Vendors_BusinessLicenseNumber] ON [Vendors] ([BusinessLicenseNumber]);
+2025-11-06 17:40:40.322 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Vendors_Status] ON [Vendors] ([Status]);
+2025-11-06 17:40:40.333 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Vendors_TenantId] ON [Vendors] ([TenantId]);
+2025-11-06 17:40:40.340 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Vendors_UserId] ON [Vendors] ([UserId]);
+2025-11-06 17:40:40.348 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251105063643_InitialCreate', N'9.0.0');
+2025-11-06 17:40:40.384 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-11-06 17:55:10.520 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 17:55:10.831 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 17:55:10.863 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 17:55:10.866 +05:30 [INF] Hosting environment: Development
+2025-11-06 17:55:10.874 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 17:57:23.757 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/register-with-otp - application/json 444
+2025-11-06 17:57:24.146 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 17:57:24.181 +05:30 [INF] CORS policy execution successful.
+2025-11-06 17:57:24.443 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api)'
+2025-11-06 17:57:24.581 +05:30 [INF] Route matched with {action = "RegisterWithOtp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterWithOtp(Kanini.Ecommerce.Application.DTOs.RegisterWithOtpRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 17:57:25.234 +05:30 [INF] OTP generation started for Email: sujithkumarsenthilkumar777@gmail.com, Type: Registration
+2025-11-06 17:57:25.242 +05:30 [INF] OTP generation started for Email: sujithkumarsenthilkumar777@gmail.com, Type: Registration
+2025-11-06 17:57:25.310 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:57:26.373 +05:30 [WRN] No user found for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:57:26.397 +05:30 [INF] OTP generated successfully
+2025-11-06 17:57:26.692 +05:30 [INF] OTP JWT token with registration data created for email: sujithkumarsenthilkumar777@gmail.com, type: Registration_2
+2025-11-06 17:57:26.697 +05:30 [INF] Email sending started to: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:57:30.224 +05:30 [INF] Email sent successfully to: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:57:30.230 +05:30 [INF] OTP sent successfully to Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:57:30.234 +05:30 [INF] OTP sent successfully to Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:57:30.248 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.OtpResponseDto'.
+2025-11-06 17:57:30.487 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api) in 5893.556ms
+2025-11-06 17:57:30.516 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api)'
+2025-11-06 17:57:30.526 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/register-with-otp - 200 null application/json; charset=utf-8 6795.7085ms
+2025-11-06 17:58:49.963 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/verify-registration-otp - application/json 1236
+2025-11-06 17:58:49.984 +05:30 [INF] CORS policy execution successful.
+2025-11-06 17:58:49.992 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.VerifyRegistrationOtp (Kanini.Ecommerce.Api)'
+2025-11-06 17:58:50.008 +05:30 [INF] Route matched with {action = "VerifyRegistrationOtp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyRegistrationOtp(Kanini.Ecommerce.Application.DTOs.VerifyRegistrationOtpRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 17:58:50.041 +05:30 [INF] OTP validation started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:58:50.046 +05:30 [INF] OTP validation started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:58:50.169 +05:30 [INF] OTP validation result for email: sujithkumarsenthilkumar777@gmail.com - true
+2025-11-06 17:58:50.186 +05:30 [INF] Executing stored procedure sp_CheckEmailExists for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:58:50.318 +05:30 [INF] Email exists check result for sujithkumarsenthilkumar777@gmail.com: false
+2025-11-06 17:58:50.321 +05:30 [INF] OTP validation successful for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:58:50.334 +05:30 [INF] Registration data extracted from token successfully
+2025-11-06 17:58:50.340 +05:30 [INF] Creating user for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:58:52.337 +05:30 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-11-06 17:58:53.234 +05:30 [INF] Executed DbCommand (55ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2), @p4='?' (Size = 150), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p11='?' (Size = 256), @p12='?' (Size = 10), @p13='?' (DbType = Int32), @p14='?' (Size = 100), @p15='?' (Size = 100), @p16='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [Email], [FailedLoginAttempts], [IsActive], [IsDeleted], [IsEmailVerified], [LastLogin], [LockoutEnd], [PasswordHash], [Phone], [Role], [TenantId], [UpdatedBy], [UpdatedOn])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2025-11-06 17:58:53.307 +05:30 [INF] User created successfully with UserId: 5
+2025-11-06 17:58:53.314 +05:30 [INF] Creating vendor for UserId: 5
+2025-11-06 17:58:53.640 +05:30 [INF] Executed DbCommand (151ms) [Parameters=[@p0='?' (Size = 500), @p1='?' (Size = 50), @p2='?' (Size = 150), @p3='?' (Size = 100), @p4='?' (Size = 100), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (DbType = DateTime2), @p9='?' (Size = 500), @p10='?' (DbType = Int32), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (Size = 100), @p14='?' (Size = 10), @p15='?' (Size = 500), @p16='?' (Size = 100), @p17='?' (DbType = Int32), @p18='?' (Size = 50), @p19='?' (Size = 100), @p20='?' (Size = 100), @p21='?' (DbType = DateTime2), @p22='?' (DbType = Int32), @p23='?' (Size = 100), @p24='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Vendors] ([BusinessAddress], [BusinessLicenseNumber], [BusinessName], [City], [CreatedBy], [CreatedOn], [CurrentPlan], [DeletedBy], [DeletedOn], [DocumentPath], [DocumentStatus], [IsActive], [IsDeleted], [OwnerName], [PinCode], [RejectionReason], [State], [Status], [TaxRegistrationNumber], [TenantId], [UpdatedBy], [UpdatedOn], [UserId], [VerifiedBy], [VerifiedOn])
+OUTPUT INSERTED.[VendorId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24);
+2025-11-06 17:58:53.656 +05:30 [INF] Vendor created successfully with VendorId: 2
+2025-11-06 17:58:53.660 +05:30 [INF] OTP validation successful for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 17:58:53.665 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.RegistrationResponseDto'.
+2025-11-06 17:58:53.673 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.VerifyRegistrationOtp (Kanini.Ecommerce.Api) in 3660.8608ms
+2025-11-06 17:58:53.679 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.VerifyRegistrationOtp (Kanini.Ecommerce.Api)'
+2025-11-06 17:58:53.692 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/verify-registration-otp - 200 null application/json; charset=utf-8 3729.5062ms
+2025-11-06 18:02:51.068 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/login - application/json 73
+2025-11-06 18:02:51.079 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:02:51.092 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 18:02:51.106 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Kanini.Ecommerce.Application.DTOs.LoginRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 18:02:51.129 +05:30 [INF] Login attempt started for Email: sujithkumar.kanini@outlook.com
+2025-11-06 18:02:51.152 +05:30 [INF] Login attempt started for Email: sujithkumar.kanini@outlook.com
+2025-11-06 18:02:51.155 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumar.kanini@outlook.com
+2025-11-06 18:02:51.259 +05:30 [INF] User found for Email: sujithkumar.kanini@outlook.com, UserId: 4
+2025-11-06 18:02:51.290 +05:30 [INF] Executing stored procedure sp_ValidateUserCredentials for Email: sujithkumar.kanini@outlook.com
+2025-11-06 18:02:51.374 +05:30 [INF] Credential validation result for Email: sujithkumar.kanini@outlook.com - true
+2025-11-06 18:02:52.918 +05:30 [INF] Executed DbCommand (50ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+FROM [Users] AS [u]
+WHERE [u].[IsDeleted] = CAST(0 AS BIT) AND [u].[UserId] = @__p_0
+2025-11-06 18:02:53.059 +05:30 [INF] Executed DbCommand (109ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 100), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [UpdatedBy] = @p0, [UpdatedOn] = @p1
+OUTPUT 1
+WHERE [UserId] = @p2;
+2025-11-06 18:02:53.075 +05:30 [INF] Creating refresh token for UserId: 4
+2025-11-06 18:02:53.271 +05:30 [INF] Executed DbCommand (84ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (Size = 100), @p8='?' (Size = 200), @p9='?' (Size = 100), @p10='?' (Size = 500), @p11='?' (Size = 100), @p12='?' (DbType = DateTime2), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [ExpiresAt], [IsDeleted], [RevokedAt], [RevokedBy], [RevokedReason], [TenantId], [Token], [UpdatedBy], [UpdatedOn], [UserId])
+OUTPUT INSERTED.[RefreshTokenId], INSERTED.[IsRevoked]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2025-11-06 18:02:53.296 +05:30 [INF] Refresh token created successfully with Id: 1
+2025-11-06 18:02:53.314 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [LastLogin] = @p0, [UpdatedOn] = @p1
+OUTPUT 1
+WHERE [UserId] = @p2;
+2025-11-06 18:02:53.320 +05:30 [INF] Login successful for UserId: 4
+2025-11-06 18:02:53.322 +05:30 [INF] Login successful for UserId: 4
+2025-11-06 18:02:53.323 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.LoginResponseDto'.
+2025-11-06 18:02:53.332 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api) in 2221.664ms
+2025-11-06 18:02:53.335 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 18:02:53.336 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/login - 200 null application/json; charset=utf-8 2268.3076ms
+2025-11-06 18:03:54.424 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - null null
+2025-11-06 18:03:54.615 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 18:03:54.624 +05:30 [INF] Route matched with {action = "GetPendingVendors", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPendingVendors() on controller Kanini.Ecommerce.Api.Controllers.AdminController (Kanini.Ecommerce.Api).
+2025-11-06 18:03:54.635 +05:30 [INF] Getting pending vendors started
+2025-11-06 18:03:54.639 +05:30 [INF] Getting pending vendors started
+2025-11-06 18:03:54.643 +05:30 [INF] Getting pending vendors started
+2025-11-06 18:03:54.823 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 18:03:54.857 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 18:03:54.861 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 18:03:54.867 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.PendingVendorDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 18:03:54.877 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api) in 246.5572ms
+2025-11-06 18:03:54.886 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 18:03:54.889 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - 200 null application/json; charset=utf-8 464.5595ms
+2025-11-06 18:08:48.586 +05:30 [INF] Application is shutting down...
+2025-11-06 18:09:28.521 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 18:09:28.936 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 18:09:28.943 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 18:09:28.946 +05:30 [INF] Hosting environment: Development
+2025-11-06 18:09:28.948 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 18:09:33.330 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - null null
+2025-11-06 18:09:33.418 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 18:09:33.632 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 18:09:33.672 +05:30 [INF] Route matched with {action = "GetPendingVendors", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPendingVendors() on controller Kanini.Ecommerce.Api.Controllers.AdminController (Kanini.Ecommerce.Api).
+2025-11-06 18:09:33.864 +05:30 [INF] Getting pending vendors started
+2025-11-06 18:09:33.868 +05:30 [INF] Getting pending vendors started
+2025-11-06 18:09:33.877 +05:30 [INF] Getting pending vendors started
+2025-11-06 18:09:35.257 +05:30 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-11-06 18:09:37.220 +05:30 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn], [u0].[UserId], [u0].[CreatedBy], [u0].[CreatedOn], [u0].[DeletedBy], [u0].[DeletedOn], [u0].[Email], [u0].[FailedLoginAttempts], [u0].[IsActive], [u0].[IsDeleted], [u0].[IsEmailVerified], [u0].[LastLogin], [u0].[LockoutEnd], [u0].[PasswordHash], [u0].[Phone], [u0].[Role], [u0].[TenantId], [u0].[UpdatedBy], [u0].[UpdatedOn]
+FROM [Vendors] AS [v]
+INNER JOIN (
+    SELECT [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+    FROM [Users] AS [u]
+    WHERE [u].[IsDeleted] = CAST(0 AS BIT)
+) AS [u0] ON [v].[UserId] = [u0].[UserId]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[Status] = 0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+ORDER BY [v].[CreatedOn] DESC
+2025-11-06 18:09:37.560 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 18:09:37.595 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 18:09:37.602 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 18:09:37.615 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.PendingVendorDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 18:09:37.709 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api) in 4023.0284ms
+2025-11-06 18:09:37.728 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 18:09:37.779 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - 200 null application/json; charset=utf-8 4450.9785ms
+2025-11-06 18:10:05.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/2/approval - null null
+2025-11-06 18:10:05.627 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetVendorForApproval (Kanini.Ecommerce.Api)'
+2025-11-06 18:10:05.678 +05:30 [INF] Route matched with {action = "GetVendorForApproval", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVendorForApproval(Int32) on controller Kanini.Ecommerce.Api.Controllers.AdminController (Kanini.Ecommerce.Api).
+2025-11-06 18:10:05.715 +05:30 [INF] Getting vendor for approval started for VendorId: 2
+2025-11-06 18:10:05.722 +05:30 [INF] Getting vendor for approval started for VendorId: 2
+2025-11-06 18:10:05.749 +05:30 [INF] Getting vendor for approval: 2
+2025-11-06 18:10:05.910 +05:30 [INF] Executed DbCommand (69ms) [Parameters=[@__vendorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn], [u0].[UserId], [u0].[CreatedBy], [u0].[CreatedOn], [u0].[DeletedBy], [u0].[DeletedOn], [u0].[Email], [u0].[FailedLoginAttempts], [u0].[IsActive], [u0].[IsDeleted], [u0].[IsEmailVerified], [u0].[LastLogin], [u0].[LockoutEnd], [u0].[PasswordHash], [u0].[Phone], [u0].[Role], [u0].[TenantId], [u0].[UpdatedBy], [u0].[UpdatedOn]
+FROM [Vendors] AS [v]
+INNER JOIN (
+    SELECT [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+    FROM [Users] AS [u]
+    WHERE [u].[IsDeleted] = CAST(0 AS BIT)
+) AS [u0] ON [v].[UserId] = [u0].[UserId]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[VendorId] = @__vendorId_0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+2025-11-06 18:10:05.941 +05:30 [INF] Getting vendor for approval completed for VendorId: 2
+2025-11-06 18:10:05.943 +05:30 [INF] Getting vendor for approval completed for VendorId: 2
+2025-11-06 18:10:05.946 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.VendorApprovalDetailsDto'.
+2025-11-06 18:10:05.974 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AdminController.GetVendorForApproval (Kanini.Ecommerce.Api) in 292.648ms
+2025-11-06 18:10:05.978 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetVendorForApproval (Kanini.Ecommerce.Api)'
+2025-11-06 18:10:05.983 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/2/approval - 200 null application/json; charset=utf-8 422.3606ms
+2025-11-06 18:10:53.542 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Admin/vendors/approve - application/json 51
+2025-11-06 18:10:53.556 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:10:53.598 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.ApproveVendor (Kanini.Ecommerce.Api)'
+2025-11-06 18:10:53.605 +05:30 [INF] Route matched with {action = "ApproveVendor", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApproveVendor(Kanini.Ecommerce.Application.DTOs.VendorApprovalRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AdminController (Kanini.Ecommerce.Api).
+2025-11-06 18:10:53.643 +05:30 [INF] Vendor approval started for VendorId: 2
+2025-11-06 18:10:53.656 +05:30 [INF] Vendor approval started for VendorId: 2
+2025-11-06 18:10:53.657 +05:30 [INF] Getting vendor for approval: 2
+2025-11-06 18:10:53.853 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__vendorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn], [u0].[UserId], [u0].[CreatedBy], [u0].[CreatedOn], [u0].[DeletedBy], [u0].[DeletedOn], [u0].[Email], [u0].[FailedLoginAttempts], [u0].[IsActive], [u0].[IsDeleted], [u0].[IsEmailVerified], [u0].[LastLogin], [u0].[LockoutEnd], [u0].[PasswordHash], [u0].[Phone], [u0].[Role], [u0].[TenantId], [u0].[UpdatedBy], [u0].[UpdatedOn]
+FROM [Vendors] AS [v]
+INNER JOIN (
+    SELECT [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+    FROM [Users] AS [u]
+    WHERE [u].[IsDeleted] = CAST(0 AS BIT)
+) AS [u0] ON [v].[UserId] = [u0].[UserId]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[VendorId] = @__vendorId_0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+2025-11-06 18:10:53.869 +05:30 [INF] Vendor approval started for VendorId: 2
+2025-11-06 18:10:53.891 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__vendorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn]
+FROM [Vendors] AS [v]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[VendorId] = @__vendorId_0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+2025-11-06 18:10:54.092 +05:30 [INF] Executed DbCommand (37ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (DbType = Boolean), @p1='?' (DbType = Int32), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Vendors] SET [IsActive] = @p0, [Status] = @p1, [UpdatedBy] = @p2, [UpdatedOn] = @p3
+OUTPUT 1
+WHERE [VendorId] = @p4;
+2025-11-06 18:10:54.130 +05:30 [INF] Vendor approved successfully for VendorId: 2
+2025-11-06 18:10:54.133 +05:30 [INF] Vendor approved successfully for VendorId: 2
+2025-11-06 18:10:54.135 +05:30 [INF] Vendor approved successfully for VendorId: 2
+2025-11-06 18:10:54.137 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-06 18:10:54.157 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AdminController.ApproveVendor (Kanini.Ecommerce.Api) in 545.6115ms
+2025-11-06 18:10:54.164 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.ApproveVendor (Kanini.Ecommerce.Api)'
+2025-11-06 18:10:54.167 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Admin/vendors/approve - 200 null application/json; charset=utf-8 624.7809ms
+2025-11-06 18:18:37.305 +05:30 [INF] Application is shutting down...
+2025-11-06 18:22:00.452 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 18:22:00.683 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 18:22:00.705 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 18:22:00.713 +05:30 [INF] Hosting environment: Development
+2025-11-06 18:22:00.716 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 18:22:07.688 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-06 18:22:07.897 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 209.5672ms
+2025-11-06 18:22:08.075 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-06 18:22:08.191 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 114.8985ms
+2025-11-06 18:22:08.801 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-06 18:22:09.569 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 767.9319ms
+2025-11-06 18:25:15.153 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/login - application/json 82
+2025-11-06 18:25:15.202 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 18:25:15.206 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:25:15.259 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 18:25:15.287 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Kanini.Ecommerce.Application.DTOs.LoginRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 18:25:15.556 +05:30 [INF] Login attempt started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:25:15.565 +05:30 [INF] Login attempt started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:25:15.582 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:25:16.350 +05:30 [INF] User found for Email: sujithkumarsenthilkumar777@gmail.com, UserId: 5
+2025-11-06 18:25:16.367 +05:30 [WRN] Login attempt for inactive account: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:25:16.371 +05:30 [ERR] Login failed: Account is inactive
+2025-11-06 18:25:16.431 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Kanini.Ecommerce.Common.Error'.
+2025-11-06 18:25:16.465 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api) in 1166.5229ms
+2025-11-06 18:25:16.470 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 18:25:16.482 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/login - 400 null application/json; charset=utf-8 1329.5289ms
+2025-11-06 18:26:39.432 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-06 18:26:39.438 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 6.1637ms
+2025-11-06 18:26:39.506 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-06 18:26:39.537 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 31.4131ms
+2025-11-06 18:26:39.743 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-06 18:26:39.800 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.9371ms
+2025-11-06 18:31:15.336 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/register-with-otp - application/json 169
+2025-11-06 18:31:15.349 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:31:15.362 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api)'
+2025-11-06 18:31:15.379 +05:30 [INF] Route matched with {action = "RegisterWithOtp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterWithOtp(Kanini.Ecommerce.Application.DTOs.RegisterWithOtpRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 18:31:15.461 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-06 18:31:15.515 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api) in 130.8212ms
+2025-11-06 18:31:15.521 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api)'
+2025-11-06 18:31:15.525 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/register-with-otp - 400 null application/problem+json; charset=utf-8 189.4666ms
+2025-11-06 18:34:35.998 +05:30 [INF] Application is shutting down...
+2025-11-06 18:34:57.411 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 18:34:57.681 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 18:34:57.687 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 18:34:57.689 +05:30 [INF] Hosting environment: Development
+2025-11-06 18:34:57.691 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 18:35:47.723 +05:30 [INF] Application is shutting down...
+2025-11-06 18:36:02.366 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 18:36:02.601 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 18:36:02.606 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 18:36:02.610 +05:30 [INF] Hosting environment: Development
+2025-11-06 18:36:02.614 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 18:36:05.817 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-06 18:36:06.133 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 318.7858ms
+2025-11-06 18:36:06.389 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-06 18:36:06.400 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 11.0662ms
+2025-11-06 18:36:07.313 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-06 18:36:07.599 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 285.9306ms
+2025-11-06 18:38:03.449 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/register-with-otp - application/json 164
+2025-11-06 18:38:03.464 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 18:38:03.478 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:38:03.530 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api)'
+2025-11-06 18:38:03.561 +05:30 [INF] Route matched with {action = "RegisterWithOtp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterWithOtp(Kanini.Ecommerce.Application.DTOs.RegisterWithOtpRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 18:38:03.819 +05:30 [INF] OTP generation started for Email: sujithkumar.kanini@outlook.com, Type: Registration
+2025-11-06 18:38:03.824 +05:30 [INF] OTP generation started for Email: sujithkumar.kanini@outlook.com, Type: Registration
+2025-11-06 18:38:03.839 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumar.kanini@outlook.com
+2025-11-06 18:38:04.400 +05:30 [INF] User found for Email: sujithkumar.kanini@outlook.com, UserId: 4
+2025-11-06 18:38:04.412 +05:30 [WRN] Registration OTP failed: Email already exists - sujithkumar.kanini@outlook.com
+2025-11-06 18:38:04.420 +05:30 [ERR] Registration OTP failed: Email already exists
+2025-11-06 18:38:04.429 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Kanini.Ecommerce.Common.Error'.
+2025-11-06 18:38:04.470 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api) in 890.4447ms
+2025-11-06 18:38:04.473 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api)'
+2025-11-06 18:38:04.490 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/register-with-otp - 400 null application/json; charset=utf-8 1040.7871ms
+2025-11-06 18:38:26.001 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/register-with-otp - application/json 170
+2025-11-06 18:38:26.071 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:38:26.075 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api)'
+2025-11-06 18:38:26.079 +05:30 [INF] Route matched with {action = "RegisterWithOtp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterWithOtp(Kanini.Ecommerce.Application.DTOs.RegisterWithOtpRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 18:38:26.104 +05:30 [INF] OTP generation started for Email: sujithkumarsenthilkumar777@gmail.com, Type: Registration
+2025-11-06 18:38:26.108 +05:30 [INF] OTP generation started for Email: sujithkumarsenthilkumar777@gmail.com, Type: Registration
+2025-11-06 18:38:26.110 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:38:26.120 +05:30 [WRN] No user found for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:38:26.123 +05:30 [INF] OTP generated successfully
+2025-11-06 18:38:26.227 +05:30 [INF] OTP JWT token with registration data created for email: sujithkumarsenthilkumar777@gmail.com, type: Registration_2
+2025-11-06 18:38:26.252 +05:30 [INF] Email sending started to: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:38:29.833 +05:30 [INF] Email sent successfully to: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:38:29.837 +05:30 [INF] OTP sent successfully to Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:38:29.839 +05:30 [INF] OTP sent successfully to Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:38:29.844 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.OtpResponseDto'.
+2025-11-06 18:38:29.858 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api) in 3769.9913ms
+2025-11-06 18:38:29.866 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.RegisterWithOtp (Kanini.Ecommerce.Api)'
+2025-11-06 18:38:29.869 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/register-with-otp - 200 null application/json; charset=utf-8 3867.9284ms
+2025-11-06 18:39:32.281 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/verify-registration-otp - application/json 1103
+2025-11-06 18:39:32.294 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:39:32.303 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.VerifyRegistrationOtp (Kanini.Ecommerce.Api)'
+2025-11-06 18:39:32.319 +05:30 [INF] Route matched with {action = "VerifyRegistrationOtp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyRegistrationOtp(Kanini.Ecommerce.Application.DTOs.VerifyRegistrationOtpRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 18:39:32.371 +05:30 [INF] OTP validation started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:39:32.380 +05:30 [INF] OTP validation started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:39:32.446 +05:30 [INF] OTP validation result for email: sujithkumarsenthilkumar777@gmail.com - true
+2025-11-06 18:39:32.462 +05:30 [INF] Executing stored procedure sp_CheckEmailExists for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:39:32.501 +05:30 [INF] Email exists check result for sujithkumarsenthilkumar777@gmail.com: false
+2025-11-06 18:39:32.506 +05:30 [INF] OTP validation successful for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:39:32.516 +05:30 [INF] Registration data extracted from token successfully
+2025-11-06 18:39:32.521 +05:30 [INF] Creating user for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:39:33.493 +05:30 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-11-06 18:39:34.231 +05:30 [INF] Executed DbCommand (59ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2), @p4='?' (Size = 150), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p11='?' (Size = 256), @p12='?' (Size = 10), @p13='?' (DbType = Int32), @p14='?' (Size = 100), @p15='?' (Size = 100), @p16='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [Email], [FailedLoginAttempts], [IsActive], [IsDeleted], [IsEmailVerified], [LastLogin], [LockoutEnd], [PasswordHash], [Phone], [Role], [TenantId], [UpdatedBy], [UpdatedOn])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2025-11-06 18:39:34.293 +05:30 [INF] User created successfully with UserId: 6
+2025-11-06 18:39:34.296 +05:30 [INF] OTP validation successful for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:39:34.298 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.RegistrationResponseDto'.
+2025-11-06 18:39:34.306 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.VerifyRegistrationOtp (Kanini.Ecommerce.Api) in 1975.644ms
+2025-11-06 18:39:34.310 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.VerifyRegistrationOtp (Kanini.Ecommerce.Api)'
+2025-11-06 18:39:34.325 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/verify-registration-otp - 200 null application/json; charset=utf-8 2043.5256ms
+2025-11-06 18:41:39.673 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/login - application/json 82
+2025-11-06 18:41:39.680 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:41:39.706 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 18:41:39.716 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Kanini.Ecommerce.Application.DTOs.LoginRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 18:41:39.733 +05:30 [INF] Login attempt started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:41:39.746 +05:30 [INF] Login attempt started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:41:39.749 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:41:39.799 +05:30 [INF] User found for Email: sujithkumarsenthilkumar777@gmail.com, UserId: 6
+2025-11-06 18:41:39.802 +05:30 [WRN] Login attempt for inactive account: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:41:39.807 +05:30 [ERR] Login failed: Account is inactive
+2025-11-06 18:41:39.809 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Kanini.Ecommerce.Common.Error'.
+2025-11-06 18:41:39.813 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api) in 86.6943ms
+2025-11-06 18:41:39.817 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 18:41:39.821 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/login - 400 null application/json; charset=utf-8 147.5671ms
+2025-11-06 18:44:52.747 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/login - application/json 82
+2025-11-06 18:44:52.753 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:44:52.756 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 18:44:52.758 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Kanini.Ecommerce.Application.DTOs.LoginRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 18:44:52.773 +05:30 [INF] Login attempt started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:44:52.776 +05:30 [INF] Login attempt started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:44:52.789 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:44:52.843 +05:30 [INF] User found for Email: sujithkumarsenthilkumar777@gmail.com, UserId: 6
+2025-11-06 18:44:52.851 +05:30 [INF] Executing stored procedure sp_ValidateUserCredentials for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 18:44:52.957 +05:30 [INF] Credential validation result for Email: sujithkumarsenthilkumar777@gmail.com - true
+2025-11-06 18:44:53.708 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+FROM [Users] AS [u]
+WHERE [u].[IsDeleted] = CAST(0 AS BIT) AND [u].[UserId] = @__p_0
+2025-11-06 18:44:53.901 +05:30 [INF] Executed DbCommand (164ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 100), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [UpdatedBy] = @p0, [UpdatedOn] = @p1
+OUTPUT 1
+WHERE [UserId] = @p2;
+2025-11-06 18:44:53.916 +05:30 [INF] Creating refresh token for UserId: 6
+2025-11-06 18:44:54.134 +05:30 [INF] Executed DbCommand (41ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (Size = 100), @p8='?' (Size = 200), @p9='?' (Size = 100), @p10='?' (Size = 500), @p11='?' (Size = 100), @p12='?' (DbType = DateTime2), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [ExpiresAt], [IsDeleted], [RevokedAt], [RevokedBy], [RevokedReason], [TenantId], [Token], [UpdatedBy], [UpdatedOn], [UserId])
+OUTPUT INSERTED.[RefreshTokenId], INSERTED.[IsRevoked]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2025-11-06 18:44:54.152 +05:30 [INF] Refresh token created successfully with Id: 2
+2025-11-06 18:44:54.206 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [LastLogin] = @p0, [UpdatedOn] = @p1
+OUTPUT 1
+WHERE [UserId] = @p2;
+2025-11-06 18:44:54.217 +05:30 [INF] Login successful for UserId: 6
+2025-11-06 18:44:54.220 +05:30 [INF] Login successful for UserId: 6
+2025-11-06 18:44:54.222 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.LoginResponseDto'.
+2025-11-06 18:44:54.230 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api) in 1460.0418ms
+2025-11-06 18:44:54.233 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 18:44:54.236 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/login - 200 null application/json; charset=utf-8 1489.232ms
+2025-11-06 18:47:37.058 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Vendor/create-profile - application/json 271
+2025-11-06 18:47:37.070 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:47:37.134 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api)'
+2025-11-06 18:47:37.141 +05:30 [INF] Route matched with {action = "CreateVendorProfile", controller = "Vendor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVendorProfile(Kanini.Ecommerce.Application.DTOs.VendorProfileCreateDto) on controller Kanini.Ecommerce.Api.Controllers.VendorController (Kanini.Ecommerce.Api).
+2025-11-06 18:47:37.158 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:47:37.163 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:47:37.357 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn], [u0].[UserId], [u0].[CreatedBy], [u0].[CreatedOn], [u0].[DeletedBy], [u0].[DeletedOn], [u0].[Email], [u0].[FailedLoginAttempts], [u0].[IsActive], [u0].[IsDeleted], [u0].[IsEmailVerified], [u0].[LastLogin], [u0].[LockoutEnd], [u0].[PasswordHash], [u0].[Phone], [u0].[Role], [u0].[TenantId], [u0].[UpdatedBy], [u0].[UpdatedOn]
+FROM [Vendors] AS [v]
+INNER JOIN (
+    SELECT [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+    FROM [Users] AS [u]
+    WHERE [u].[IsDeleted] = CAST(0 AS BIT)
+) AS [u0] ON [v].[UserId] = [u0].[UserId]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[UserId] = @__userId_0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+2025-11-06 18:47:37.376 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:47:37.543 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[@p0='?' (Size = 500), @p1='?' (Size = 50), @p2='?' (Size = 150), @p3='?' (Size = 100), @p4='?' (Size = 100), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (DbType = DateTime2), @p9='?' (Size = 500), @p10='?' (DbType = Int32), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (Size = 100), @p14='?' (Size = 10), @p15='?' (Size = 500), @p16='?' (Size = 100), @p17='?' (DbType = Int32), @p18='?' (Size = 50), @p19='?' (Size = 100), @p20='?' (Size = 100), @p21='?' (DbType = DateTime2), @p22='?' (DbType = Int32), @p23='?' (Size = 100), @p24='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Vendors] ([BusinessAddress], [BusinessLicenseNumber], [BusinessName], [City], [CreatedBy], [CreatedOn], [CurrentPlan], [DeletedBy], [DeletedOn], [DocumentPath], [DocumentStatus], [IsActive], [IsDeleted], [OwnerName], [PinCode], [RejectionReason], [State], [Status], [TaxRegistrationNumber], [TenantId], [UpdatedBy], [UpdatedOn], [UserId], [VerifiedBy], [VerifiedOn])
+OUTPUT INSERTED.[VendorId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24);
+2025-11-06 18:47:37.562 +05:30 [INF] Vendor profile created with VendorId: 3
+2025-11-06 18:47:37.584 +05:30 [INF] Vendor profile created successfully for UserId: 6, VendorId: 3
+2025-11-06 18:47:37.588 +05:30 [INF] Vendor profile created successfully for UserId: 6
+2025-11-06 18:47:37.590 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Kanini.Ecommerce.Application.DTOs.VendorProfileDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 18:47:37.604 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api) in 458.3815ms
+2025-11-06 18:47:37.607 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api)'
+2025-11-06 18:47:37.609 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Vendor/create-profile - 200 null application/json; charset=utf-8 551.0434ms
+2025-11-06 18:52:39.061 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Vendor/subscription-plans - null null
+2025-11-06 18:52:39.074 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.VendorController.GetSubscriptionPlans (Kanini.Ecommerce.Api)'
+2025-11-06 18:52:39.093 +05:30 [INF] Route matched with {action = "GetSubscriptionPlans", controller = "Vendor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubscriptionPlans() on controller Kanini.Ecommerce.Api.Controllers.VendorController (Kanini.Ecommerce.Api).
+2025-11-06 18:52:39.105 +05:30 [INF] Getting subscription plans started
+2025-11-06 18:52:39.109 +05:30 [INF] Getting subscription plans started
+2025-11-06 18:52:39.116 +05:30 [INF] Executing stored procedure sp_GetSubscriptionPlans
+2025-11-06 18:52:39.266 +05:30 [INF] Retrieved 2 subscription plans from database
+2025-11-06 18:52:39.270 +05:30 [INF] Subscription plans retrieved successfully. Found 2 plans
+2025-11-06 18:52:39.292 +05:30 [INF] Subscription plans retrieved successfully. Found 2 plans
+2025-11-06 18:52:39.296 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.SubscriptionPlanDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 18:52:39.342 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.VendorController.GetSubscriptionPlans (Kanini.Ecommerce.Api) in 238.7176ms
+2025-11-06 18:52:39.349 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.VendorController.GetSubscriptionPlans (Kanini.Ecommerce.Api)'
+2025-11-06 18:52:39.353 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Vendor/subscription-plans - 200 null application/json; charset=utf-8 292.668ms
+2025-11-06 18:52:51.768 +05:30 [INF] Application is shutting down...
+2025-11-06 18:53:31.985 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 18:53:32.217 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 18:53:32.222 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 18:53:32.224 +05:30 [INF] Hosting environment: Development
+2025-11-06 18:53:32.235 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 18:54:51.308 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Vendor/create-profile - application/json 298
+2025-11-06 18:54:51.381 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 18:54:51.384 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:54:51.530 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api)'
+2025-11-06 18:54:51.562 +05:30 [INF] Route matched with {action = "CreateVendorProfile", controller = "Vendor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVendorProfile(Kanini.Ecommerce.Application.DTOs.VendorProfileCreateDto) on controller Kanini.Ecommerce.Api.Controllers.VendorController (Kanini.Ecommerce.Api).
+2025-11-06 18:54:51.883 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:54:51.889 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:54:52.936 +05:30 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-11-06 18:54:54.153 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn], [u0].[UserId], [u0].[CreatedBy], [u0].[CreatedOn], [u0].[DeletedBy], [u0].[DeletedOn], [u0].[Email], [u0].[FailedLoginAttempts], [u0].[IsActive], [u0].[IsDeleted], [u0].[IsEmailVerified], [u0].[LastLogin], [u0].[LockoutEnd], [u0].[PasswordHash], [u0].[Phone], [u0].[Role], [u0].[TenantId], [u0].[UpdatedBy], [u0].[UpdatedOn]
+FROM [Vendors] AS [v]
+INNER JOIN (
+    SELECT [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+    FROM [Users] AS [u]
+    WHERE [u].[IsDeleted] = CAST(0 AS BIT)
+) AS [u0] ON [v].[UserId] = [u0].[UserId]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[UserId] = @__userId_0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+2025-11-06 18:54:54.203 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:54:54.528 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 500), @p1='?' (Size = 50), @p2='?' (Size = 150), @p3='?' (Size = 100), @p4='?' (Size = 100), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (DbType = DateTime2), @p9='?' (Size = 500), @p10='?' (DbType = Int32), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (Size = 100), @p14='?' (Size = 10), @p15='?' (Size = 500), @p16='?' (Size = 100), @p17='?' (DbType = Int32), @p18='?' (Size = 50), @p19='?' (Size = 100), @p20='?' (Size = 100), @p21='?' (DbType = DateTime2), @p22='?' (DbType = Int32), @p23='?' (Size = 100), @p24='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Vendors] ([BusinessAddress], [BusinessLicenseNumber], [BusinessName], [City], [CreatedBy], [CreatedOn], [CurrentPlan], [DeletedBy], [DeletedOn], [DocumentPath], [DocumentStatus], [IsActive], [IsDeleted], [OwnerName], [PinCode], [RejectionReason], [State], [Status], [TaxRegistrationNumber], [TenantId], [UpdatedBy], [UpdatedOn], [UserId], [VerifiedBy], [VerifiedOn])
+OUTPUT INSERTED.[VendorId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24);
+2025-11-06 18:54:54.583 +05:30 [INF] Vendor profile created with VendorId: 4
+2025-11-06 18:54:54.594 +05:30 [INF] Vendor profile created successfully for UserId: 6, VendorId: 4
+2025-11-06 18:54:54.600 +05:30 [INF] Vendor profile created successfully for UserId: 6
+2025-11-06 18:54:54.607 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Kanini.Ecommerce.Application.DTOs.VendorProfileDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 18:54:54.644 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api) in 3073.1624ms
+2025-11-06 18:54:54.657 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api)'
+2025-11-06 18:54:54.676 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Vendor/create-profile - 200 null application/json; charset=utf-8 3370.6246ms
+2025-11-06 18:55:34.328 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Vendor/create-profile - application/json 298
+2025-11-06 18:55:34.390 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:55:34.406 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api)'
+2025-11-06 18:55:34.409 +05:30 [INF] Route matched with {action = "CreateVendorProfile", controller = "Vendor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVendorProfile(Kanini.Ecommerce.Application.DTOs.VendorProfileCreateDto) on controller Kanini.Ecommerce.Api.Controllers.VendorController (Kanini.Ecommerce.Api).
+2025-11-06 18:55:34.422 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:55:34.424 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:55:34.472 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn], [u0].[UserId], [u0].[CreatedBy], [u0].[CreatedOn], [u0].[DeletedBy], [u0].[DeletedOn], [u0].[Email], [u0].[FailedLoginAttempts], [u0].[IsActive], [u0].[IsDeleted], [u0].[IsEmailVerified], [u0].[LastLogin], [u0].[LockoutEnd], [u0].[PasswordHash], [u0].[Phone], [u0].[Role], [u0].[TenantId], [u0].[UpdatedBy], [u0].[UpdatedOn]
+FROM [Vendors] AS [v]
+INNER JOIN (
+    SELECT [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+    FROM [Users] AS [u]
+    WHERE [u].[IsDeleted] = CAST(0 AS BIT)
+) AS [u0] ON [v].[UserId] = [u0].[UserId]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[UserId] = @__userId_0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+2025-11-06 18:55:34.481 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:55:34.502 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 500), @p1='?' (Size = 50), @p2='?' (Size = 150), @p3='?' (Size = 100), @p4='?' (Size = 100), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (DbType = DateTime2), @p9='?' (Size = 500), @p10='?' (DbType = Int32), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (Size = 100), @p14='?' (Size = 10), @p15='?' (Size = 500), @p16='?' (Size = 100), @p17='?' (DbType = Int32), @p18='?' (Size = 50), @p19='?' (Size = 100), @p20='?' (Size = 100), @p21='?' (DbType = DateTime2), @p22='?' (DbType = Int32), @p23='?' (Size = 100), @p24='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Vendors] ([BusinessAddress], [BusinessLicenseNumber], [BusinessName], [City], [CreatedBy], [CreatedOn], [CurrentPlan], [DeletedBy], [DeletedOn], [DocumentPath], [DocumentStatus], [IsActive], [IsDeleted], [OwnerName], [PinCode], [RejectionReason], [State], [Status], [TaxRegistrationNumber], [TenantId], [UpdatedBy], [UpdatedOn], [UserId], [VerifiedBy], [VerifiedOn])
+OUTPUT INSERTED.[VendorId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24);
+2025-11-06 18:55:34.515 +05:30 [INF] Vendor profile created with VendorId: 5
+2025-11-06 18:55:34.521 +05:30 [INF] Vendor profile created successfully for UserId: 6, VendorId: 5
+2025-11-06 18:55:34.524 +05:30 [INF] Vendor profile created successfully for UserId: 6
+2025-11-06 18:55:34.527 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Kanini.Ecommerce.Application.DTOs.VendorProfileDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 18:55:34.532 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api) in 118.4493ms
+2025-11-06 18:55:34.539 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api)'
+2025-11-06 18:55:34.544 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Vendor/create-profile - 200 null application/json; charset=utf-8 216.0308ms
+2025-11-06 18:58:00.200 +05:30 [INF] Application is shutting down...
+2025-11-06 18:58:14.748 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 18:58:14.968 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 18:58:14.975 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 18:58:14.979 +05:30 [INF] Hosting environment: Development
+2025-11-06 18:58:14.984 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 18:58:39.166 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Vendor/create-profile - application/json 298
+2025-11-06 18:58:39.238 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 18:58:39.242 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:58:39.386 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api)'
+2025-11-06 18:58:39.424 +05:30 [INF] Route matched with {action = "CreateVendorProfile", controller = "Vendor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVendorProfile(Kanini.Ecommerce.Application.DTOs.VendorProfileCreateDto) on controller Kanini.Ecommerce.Api.Controllers.VendorController (Kanini.Ecommerce.Api).
+2025-11-06 18:58:39.674 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:58:39.680 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:58:40.712 +05:30 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-11-06 18:58:42.096 +05:30 [INF] Executed DbCommand (101ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn], [u0].[UserId], [u0].[CreatedBy], [u0].[CreatedOn], [u0].[DeletedBy], [u0].[DeletedOn], [u0].[Email], [u0].[FailedLoginAttempts], [u0].[IsActive], [u0].[IsDeleted], [u0].[IsEmailVerified], [u0].[LastLogin], [u0].[LockoutEnd], [u0].[PasswordHash], [u0].[Phone], [u0].[Role], [u0].[TenantId], [u0].[UpdatedBy], [u0].[UpdatedOn]
+FROM [Vendors] AS [v]
+INNER JOIN (
+    SELECT [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+    FROM [Users] AS [u]
+    WHERE [u].[IsDeleted] = CAST(0 AS BIT)
+) AS [u0] ON [v].[UserId] = [u0].[UserId]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[UserId] = @__userId_0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+2025-11-06 18:58:42.161 +05:30 [INF] Creating vendor profile for UserId: 6
+2025-11-06 18:58:42.497 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 500), @p1='?' (Size = 50), @p2='?' (Size = 150), @p3='?' (Size = 100), @p4='?' (Size = 100), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (DbType = DateTime2), @p9='?' (Size = 500), @p10='?' (DbType = Int32), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (Size = 100), @p14='?' (Size = 10), @p15='?' (Size = 500), @p16='?' (Size = 100), @p17='?' (DbType = Int32), @p18='?' (Size = 50), @p19='?' (Size = 100), @p20='?' (Size = 100), @p21='?' (DbType = DateTime2), @p22='?' (DbType = Int32), @p23='?' (Size = 100), @p24='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Vendors] ([BusinessAddress], [BusinessLicenseNumber], [BusinessName], [City], [CreatedBy], [CreatedOn], [CurrentPlan], [DeletedBy], [DeletedOn], [DocumentPath], [DocumentStatus], [IsActive], [IsDeleted], [OwnerName], [PinCode], [RejectionReason], [State], [Status], [TaxRegistrationNumber], [TenantId], [UpdatedBy], [UpdatedOn], [UserId], [VerifiedBy], [VerifiedOn])
+OUTPUT INSERTED.[VendorId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24);
+2025-11-06 18:58:42.557 +05:30 [INF] Vendor profile created with VendorId: 6
+2025-11-06 18:58:42.573 +05:30 [INF] Vendor profile created successfully for UserId: 6, VendorId: 6
+2025-11-06 18:58:42.577 +05:30 [INF] Vendor profile created successfully for UserId: 6
+2025-11-06 18:58:42.588 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Kanini.Ecommerce.Application.DTOs.VendorProfileDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 18:58:42.626 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api) in 3186.6344ms
+2025-11-06 18:58:42.641 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.VendorController.CreateVendorProfile (Kanini.Ecommerce.Api)'
+2025-11-06 18:58:42.664 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Vendor/create-profile - 200 null application/json; charset=utf-8 3500.0744ms
+2025-11-06 18:59:48.819 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/login - application/json 73
+2025-11-06 18:59:48.833 +05:30 [INF] CORS policy execution successful.
+2025-11-06 18:59:48.848 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 18:59:48.870 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Kanini.Ecommerce.Application.DTOs.LoginRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 18:59:48.933 +05:30 [INF] Login attempt started for Email: sujithkumar.kanini@outlook.com
+2025-11-06 18:59:48.939 +05:30 [INF] Login attempt started for Email: sujithkumar.kanini@outlook.com
+2025-11-06 18:59:48.947 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumar.kanini@outlook.com
+2025-11-06 18:59:48.965 +05:30 [INF] User found for Email: sujithkumar.kanini@outlook.com, UserId: 4
+2025-11-06 18:59:48.973 +05:30 [INF] Executing stored procedure sp_ValidateUserCredentials for Email: sujithkumar.kanini@outlook.com
+2025-11-06 18:59:49.014 +05:30 [INF] Credential validation result for Email: sujithkumar.kanini@outlook.com - true
+2025-11-06 18:59:49.084 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+FROM [Users] AS [u]
+WHERE [u].[IsDeleted] = CAST(0 AS BIT) AND [u].[UserId] = @__p_0
+2025-11-06 18:59:49.251 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [UpdatedOn] = @p0
+OUTPUT 1
+WHERE [UserId] = @p1;
+2025-11-06 18:59:49.286 +05:30 [INF] Creating refresh token for UserId: 4
+2025-11-06 18:59:49.456 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (Size = 100), @p8='?' (Size = 200), @p9='?' (Size = 100), @p10='?' (Size = 500), @p11='?' (Size = 100), @p12='?' (DbType = DateTime2), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [ExpiresAt], [IsDeleted], [RevokedAt], [RevokedBy], [RevokedReason], [TenantId], [Token], [UpdatedBy], [UpdatedOn], [UserId])
+OUTPUT INSERTED.[RefreshTokenId], INSERTED.[IsRevoked]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2025-11-06 18:59:49.491 +05:30 [INF] Refresh token created successfully with Id: 3
+2025-11-06 18:59:49.523 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [LastLogin] = @p0, [UpdatedOn] = @p1
+OUTPUT 1
+WHERE [UserId] = @p2;
+2025-11-06 18:59:49.535 +05:30 [INF] Login successful for UserId: 4
+2025-11-06 18:59:49.539 +05:30 [INF] Login successful for UserId: 4
+2025-11-06 18:59:49.548 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.LoginResponseDto'.
+2025-11-06 18:59:49.571 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api) in 697.0733ms
+2025-11-06 18:59:49.578 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 18:59:49.588 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/login - 200 null application/json; charset=utf-8 769.1237ms
+2025-11-06 19:00:19.781 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - null null
+2025-11-06 19:00:19.817 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 19:00:19.824 +05:30 [INF] Route matched with {action = "GetPendingVendors", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPendingVendors() on controller Kanini.Ecommerce.Api.Controllers.AdminController (Kanini.Ecommerce.Api).
+2025-11-06 19:00:19.838 +05:30 [INF] Getting pending vendors started
+2025-11-06 19:00:19.843 +05:30 [INF] Getting pending vendors started
+2025-11-06 19:00:19.890 +05:30 [INF] Getting pending vendors started
+2025-11-06 19:00:20.085 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn], [u0].[UserId], [u0].[CreatedBy], [u0].[CreatedOn], [u0].[DeletedBy], [u0].[DeletedOn], [u0].[Email], [u0].[FailedLoginAttempts], [u0].[IsActive], [u0].[IsDeleted], [u0].[IsEmailVerified], [u0].[LastLogin], [u0].[LockoutEnd], [u0].[PasswordHash], [u0].[Phone], [u0].[Role], [u0].[TenantId], [u0].[UpdatedBy], [u0].[UpdatedOn]
+FROM [Vendors] AS [v]
+INNER JOIN (
+    SELECT [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+    FROM [Users] AS [u]
+    WHERE [u].[IsDeleted] = CAST(0 AS BIT)
+) AS [u0] ON [v].[UserId] = [u0].[UserId]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[Status] = 0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+ORDER BY [v].[CreatedOn] DESC
+2025-11-06 19:00:20.104 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 19:00:20.124 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 19:00:20.129 +05:30 [INF] Getting pending vendors completed. Found 1 vendors
+2025-11-06 19:00:20.133 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.PendingVendorDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 19:00:20.144 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api) in 310.7688ms
+2025-11-06 19:00:20.151 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.GetPendingVendors (Kanini.Ecommerce.Api)'
+2025-11-06 19:00:20.153 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Admin/vendors/pending - 200 null application/json; charset=utf-8 372.426ms
+2025-11-06 19:00:43.175 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Admin/vendors/approve - application/json 47
+2025-11-06 19:00:43.184 +05:30 [INF] CORS policy execution successful.
+2025-11-06 19:00:43.212 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.ApproveVendor (Kanini.Ecommerce.Api)'
+2025-11-06 19:00:43.219 +05:30 [INF] Route matched with {action = "ApproveVendor", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApproveVendor(Kanini.Ecommerce.Application.DTOs.VendorApprovalRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AdminController (Kanini.Ecommerce.Api).
+2025-11-06 19:00:43.235 +05:30 [INF] Vendor approval started for VendorId: 6
+2025-11-06 19:00:43.244 +05:30 [INF] Vendor approval started for VendorId: 6
+2025-11-06 19:00:43.249 +05:30 [INF] Getting vendor for approval: 6
+2025-11-06 19:00:43.277 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__vendorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn], [u0].[UserId], [u0].[CreatedBy], [u0].[CreatedOn], [u0].[DeletedBy], [u0].[DeletedOn], [u0].[Email], [u0].[FailedLoginAttempts], [u0].[IsActive], [u0].[IsDeleted], [u0].[IsEmailVerified], [u0].[LastLogin], [u0].[LockoutEnd], [u0].[PasswordHash], [u0].[Phone], [u0].[Role], [u0].[TenantId], [u0].[UpdatedBy], [u0].[UpdatedOn]
+FROM [Vendors] AS [v]
+INNER JOIN (
+    SELECT [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+    FROM [Users] AS [u]
+    WHERE [u].[IsDeleted] = CAST(0 AS BIT)
+) AS [u0] ON [v].[UserId] = [u0].[UserId]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[VendorId] = @__vendorId_0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+2025-11-06 19:00:43.292 +05:30 [INF] Vendor approval started for VendorId: 6
+2025-11-06 19:00:43.306 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__vendorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[VendorId], [v].[BusinessAddress], [v].[BusinessLicenseNumber], [v].[BusinessName], [v].[City], [v].[CreatedBy], [v].[CreatedOn], [v].[CurrentPlan], [v].[DeletedBy], [v].[DeletedOn], [v].[DocumentPath], [v].[DocumentStatus], [v].[IsActive], [v].[IsDeleted], [v].[OwnerName], [v].[PinCode], [v].[RejectionReason], [v].[State], [v].[Status], [v].[TaxRegistrationNumber], [v].[TenantId], [v].[UpdatedBy], [v].[UpdatedOn], [v].[UserId], [v].[VerifiedBy], [v].[VerifiedOn]
+FROM [Vendors] AS [v]
+WHERE [v].[IsDeleted] = CAST(0 AS BIT) AND [v].[VendorId] = @__vendorId_0 AND [v].[IsDeleted] = CAST(0 AS BIT)
+2025-11-06 19:00:43.391 +05:30 [INF] Executed DbCommand (75ms) [Parameters=[@p7='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 100), @p4='?' (DbType = DateTime2), @p5='?' (Size = 100), @p6='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Vendors] SET [DocumentStatus] = @p0, [IsActive] = @p1, [Status] = @p2, [UpdatedBy] = @p3, [UpdatedOn] = @p4, [VerifiedBy] = @p5, [VerifiedOn] = @p6
+OUTPUT 1
+WHERE [VendorId] = @p7;
+2025-11-06 19:00:43.400 +05:30 [INF] Vendor approved successfully for VendorId: 6
+2025-11-06 19:00:43.403 +05:30 [INF] Vendor approved successfully for VendorId: 6
+2025-11-06 19:00:43.407 +05:30 [INF] Vendor approved successfully for VendorId: 6
+2025-11-06 19:00:43.411 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-06 19:00:43.417 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AdminController.ApproveVendor (Kanini.Ecommerce.Api) in 187.4631ms
+2025-11-06 19:00:43.421 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AdminController.ApproveVendor (Kanini.Ecommerce.Api)'
+2025-11-06 19:00:43.426 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Admin/vendors/approve - 200 null application/json; charset=utf-8 250.9045ms
+2025-11-06 19:04:46.924 +05:30 [INF] Application is shutting down...
+2025-11-06 21:28:12.680 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 21:28:13.103 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-06 21:28:13.109 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 21:28:13.113 +05:30 [INF] Hosting environment: Development
+2025-11-06 21:28:13.125 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-06 21:28:13.591 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-06 21:28:14.219 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 630.8724ms
+2025-11-06 21:28:14.630 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-06 21:28:14.738 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 107.4052ms
+2025-11-06 21:28:16.597 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-06 21:28:17.636 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1039.0153ms
+2025-11-06 21:29:10.404 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Auth/login - application/json 82
+2025-11-06 21:29:10.517 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-06 21:29:10.751 +05:30 [INF] CORS policy execution successful.
+2025-11-06 21:29:10.903 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 21:29:11.219 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Kanini.Ecommerce.Application.DTOs.LoginRequestDto) on controller Kanini.Ecommerce.Api.Controllers.AuthController (Kanini.Ecommerce.Api).
+2025-11-06 21:29:11.827 +05:30 [INF] Login attempt started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 21:29:11.834 +05:30 [INF] Login attempt started for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 21:29:11.850 +05:30 [INF] Executing stored procedure sp_GetUserByEmail for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 21:29:13.576 +05:30 [INF] User found for Email: sujithkumarsenthilkumar777@gmail.com, UserId: 6
+2025-11-06 21:29:13.598 +05:30 [INF] Executing stored procedure sp_ValidateUserCredentials for Email: sujithkumarsenthilkumar777@gmail.com
+2025-11-06 21:29:13.776 +05:30 [INF] Credential validation result for Email: sujithkumarsenthilkumar777@gmail.com - true
+2025-11-06 21:29:15.260 +05:30 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'RefreshToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-11-06 21:29:17.105 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[DeletedBy], [u].[DeletedOn], [u].[Email], [u].[FailedLoginAttempts], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerified], [u].[LastLogin], [u].[LockoutEnd], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[TenantId], [u].[UpdatedBy], [u].[UpdatedOn]
+FROM [Users] AS [u]
+WHERE [u].[IsDeleted] = CAST(0 AS BIT) AND [u].[UserId] = @__p_0
+2025-11-06 21:29:17.755 +05:30 [INF] Executed DbCommand (289ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [UpdatedOn] = @p0
+OUTPUT 1
+WHERE [UserId] = @p1;
+2025-11-06 21:29:17.934 +05:30 [INF] Creating refresh token for UserId: 6
+2025-11-06 21:29:18.289 +05:30 [INF] Executed DbCommand (234ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (Size = 100), @p8='?' (Size = 200), @p9='?' (Size = 100), @p10='?' (Size = 500), @p11='?' (Size = 100), @p12='?' (DbType = DateTime2), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [ExpiresAt], [IsDeleted], [RevokedAt], [RevokedBy], [RevokedReason], [TenantId], [Token], [UpdatedBy], [UpdatedOn], [UserId])
+OUTPUT INSERTED.[RefreshTokenId], INSERTED.[IsRevoked]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2025-11-06 21:29:18.332 +05:30 [INF] Refresh token created successfully with Id: 4
+2025-11-06 21:29:18.341 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [LastLogin] = @p0, [UpdatedOn] = @p1
+OUTPUT 1
+WHERE [UserId] = @p2;
+2025-11-06 21:29:18.353 +05:30 [INF] Login successful for UserId: 6
+2025-11-06 21:29:18.356 +05:30 [INF] Login successful for UserId: 6
+2025-11-06 21:29:18.367 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.LoginResponseDto'.
+2025-11-06 21:29:18.403 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api) in 7172.4917ms
+2025-11-06 21:29:18.407 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.AuthController.Login (Kanini.Ecommerce.Api)'
+2025-11-06 21:29:18.427 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/login - 200 null application/json; charset=utf-8 8022.4016ms
+2025-11-06 21:32:40.352 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Product - application/json 348
+2025-11-06 21:32:40.361 +05:30 [INF] CORS policy execution successful.
+2025-11-06 21:32:40.466 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.CreateProduct (Kanini.Ecommerce.Api)'
+2025-11-06 21:32:40.497 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProduct(Kanini.Ecommerce.Application.DTOs.ProductCreateRequestDto) on controller Kanini.Ecommerce.Api.Controllers.ProductController (Kanini.Ecommerce.Api).
+2025-11-06 21:32:40.617 +05:30 [INF] Product creation started for VendorId: 6
+2025-11-06 21:32:40.625 +05:30 [INF] Product creation started for VendorId: 6
+2025-11-06 21:32:40.806 +05:30 [INF] Product creation started for VendorId: 6
+2025-11-06 21:32:41.127 +05:30 [INF] Executed DbCommand (75ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = Int32), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2), @p4='?' (Size = 100), @p5='?' (DbType = DateTime2), @p6='?' (Size = 1000), @p7='?' (Size = 100), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Int32), @p12='?' (Size = 200), @p13='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p14='?' (Size = 50), @p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (Size = 100), @p18='?' (Size = 100), @p19='?' (DbType = DateTime2), @p20='?' (DbType = Int32), @p21='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Brand], [CategoryId], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [Description], [Dimensions], [DiscountPrice], [IsActive], [IsDeleted], [MinStockLevel], [Name], [Price], [SKU], [Status], [StockQuantity], [TenantId], [UpdatedBy], [UpdatedOn], [VendorId], [Weight])
+OUTPUT INSERTED.[ProductId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2025-11-06 21:32:41.145 +05:30 [INF] Product created with ProductId: 1
+2025-11-06 21:32:41.166 +05:30 [INF] Product created with ProductId: 1
+2025-11-06 21:32:41.172 +05:30 [INF] Product created with ProductId: 1
+2025-11-06 21:32:41.216 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.ProductResponseDto'.
+2025-11-06 21:32:41.415 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.ProductController.CreateProduct (Kanini.Ecommerce.Api) in 911.7669ms
+2025-11-06 21:32:41.421 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.CreateProduct (Kanini.Ecommerce.Api)'
+2025-11-06 21:32:41.425 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Product - 201 null application/json; charset=utf-8 1073.6692ms
+2025-11-06 21:35:56.181 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Product - null null
+2025-11-06 21:35:56.215 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetAllProducts (Kanini.Ecommerce.Api)'
+2025-11-06 21:35:56.232 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProducts() on controller Kanini.Ecommerce.Api.Controllers.ProductController (Kanini.Ecommerce.Api).
+2025-11-06 21:35:56.253 +05:30 [INF] Getting all products started
+2025-11-06 21:35:56.264 +05:30 [INF] Getting all products started
+2025-11-06 21:35:56.271 +05:30 [INF] Getting all products started
+2025-11-06 21:35:56.679 +05:30 [INF] Getting all products completed. Found 0 products
+2025-11-06 21:35:56.701 +05:30 [INF] Getting all products completed. Found 0 products
+2025-11-06 21:35:56.703 +05:30 [INF] Getting all products completed. Found 0 products
+2025-11-06 21:35:56.705 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.ProductListDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 21:35:56.717 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.ProductController.GetAllProducts (Kanini.Ecommerce.Api) in 480.0619ms
+2025-11-06 21:35:56.720 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetAllProducts (Kanini.Ecommerce.Api)'
+2025-11-06 21:35:56.722 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Product - 200 null application/json; charset=utf-8 541.2893ms
+2025-11-06 21:36:48.071 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Product - null null
+2025-11-06 21:36:48.078 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetAllProducts (Kanini.Ecommerce.Api)'
+2025-11-06 21:36:48.140 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProducts() on controller Kanini.Ecommerce.Api.Controllers.ProductController (Kanini.Ecommerce.Api).
+2025-11-06 21:36:48.184 +05:30 [INF] Getting all products started
+2025-11-06 21:36:48.186 +05:30 [INF] Getting all products started
+2025-11-06 21:36:48.193 +05:30 [INF] Getting all products started
+2025-11-06 21:36:48.280 +05:30 [INF] Getting all products completed. Found 0 products
+2025-11-06 21:36:48.285 +05:30 [INF] Getting all products completed. Found 0 products
+2025-11-06 21:36:48.295 +05:30 [INF] Getting all products completed. Found 0 products
+2025-11-06 21:36:48.299 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.ProductListDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 21:36:48.323 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.ProductController.GetAllProducts (Kanini.Ecommerce.Api) in 144.9068ms
+2025-11-06 21:36:48.347 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetAllProducts (Kanini.Ecommerce.Api)'
+2025-11-06 21:36:48.350 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Product - 200 null application/json; charset=utf-8 278.5326ms
+2025-11-06 21:44:47.750 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Product - null null
+2025-11-06 21:44:47.816 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetAllProducts (Kanini.Ecommerce.Api)'
+2025-11-06 21:44:47.819 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProducts() on controller Kanini.Ecommerce.Api.Controllers.ProductController (Kanini.Ecommerce.Api).
+2025-11-06 21:44:47.828 +05:30 [INF] Getting all products started
+2025-11-06 21:44:47.831 +05:30 [INF] Getting all products started
+2025-11-06 21:44:47.833 +05:30 [INF] Getting all products started
+2025-11-06 21:44:47.872 +05:30 [INF] Getting all products completed. Found 1 products
+2025-11-06 21:44:47.880 +05:30 [INF] Getting all products completed. Found 1 products
+2025-11-06 21:44:47.882 +05:30 [INF] Getting all products completed. Found 1 products
+2025-11-06 21:44:47.884 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.ProductListDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 21:44:47.890 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.ProductController.GetAllProducts (Kanini.Ecommerce.Api) in 61.7689ms
+2025-11-06 21:44:47.896 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetAllProducts (Kanini.Ecommerce.Api)'
+2025-11-06 21:44:47.900 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Product - 200 null application/json; charset=utf-8 148.8828ms
+2025-11-06 21:45:02.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Product/1 - null null
+2025-11-06 21:45:02.630 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetProductById (Kanini.Ecommerce.Api)'
+2025-11-06 21:45:02.671 +05:30 [INF] Route matched with {action = "GetProductById", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductById(Int32) on controller Kanini.Ecommerce.Api.Controllers.ProductController (Kanini.Ecommerce.Api).
+2025-11-06 21:45:02.694 +05:30 [INF] Getting product started for ProductId: 1
+2025-11-06 21:45:02.709 +05:30 [INF] Getting product started for ProductId: 1
+2025-11-06 21:45:02.712 +05:30 [INF] Getting product started for ProductId: 1
+2025-11-06 21:45:02.770 +05:30 [INF] Getting product completed for ProductId: 1
+2025-11-06 21:45:02.775 +05:30 [INF] Getting product completed for ProductId: 1
+2025-11-06 21:45:02.778 +05:30 [INF] Getting product completed for ProductId: 1
+2025-11-06 21:45:02.780 +05:30 [INF] Executing OkObjectResult, writing value of type 'Kanini.Ecommerce.Application.DTOs.ProductResponseDto'.
+2025-11-06 21:45:02.787 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.ProductController.GetProductById (Kanini.Ecommerce.Api) in 109.9006ms
+2025-11-06 21:45:02.797 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetProductById (Kanini.Ecommerce.Api)'
+2025-11-06 21:45:02.805 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Product/1 - 200 null application/json; charset=utf-8 243.516ms
+2025-11-06 21:45:20.674 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Product/vendor/6 - null null
+2025-11-06 21:45:20.708 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetProductsByVendor (Kanini.Ecommerce.Api)'
+2025-11-06 21:45:20.716 +05:30 [INF] Route matched with {action = "GetProductsByVendor", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductsByVendor(Int32) on controller Kanini.Ecommerce.Api.Controllers.ProductController (Kanini.Ecommerce.Api).
+2025-11-06 21:45:20.729 +05:30 [INF] Getting products by vendor started for VendorId: 6
+2025-11-06 21:45:20.735 +05:30 [INF] Getting products by vendor started for VendorId: 6
+2025-11-06 21:45:20.744 +05:30 [INF] Getting products by vendor started for VendorId: 6
+2025-11-06 21:45:20.786 +05:30 [INF] Getting products by vendor completed for VendorId: 6. Found 1 products
+2025-11-06 21:45:20.795 +05:30 [INF] Getting products by vendor completed for VendorId: 6. Found 1 products
+2025-11-06 21:45:20.798 +05:30 [INF] Getting products by vendor completed for VendorId: 6. Found 1 products
+2025-11-06 21:45:20.801 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.ProductListDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 21:45:20.808 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.ProductController.GetProductsByVendor (Kanini.Ecommerce.Api) in 81.7099ms
+2025-11-06 21:45:20.816 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetProductsByVendor (Kanini.Ecommerce.Api)'
+2025-11-06 21:45:20.820 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Product/vendor/6 - 200 null application/json; charset=utf-8 145.5481ms
+2025-11-06 21:46:39.475 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Product/category/1 - null null
+2025-11-06 21:46:39.538 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetProductsByCategory (Kanini.Ecommerce.Api)'
+2025-11-06 21:46:39.553 +05:30 [INF] Route matched with {action = "GetProductsByCategory", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductsByCategory(Int32) on controller Kanini.Ecommerce.Api.Controllers.ProductController (Kanini.Ecommerce.Api).
+2025-11-06 21:46:39.559 +05:30 [INF] Getting products by category started for CategoryId: 1
+2025-11-06 21:46:39.570 +05:30 [INF] Getting products by category started for CategoryId: 1
+2025-11-06 21:46:39.574 +05:30 [INF] Getting products by category started for CategoryId: 1
+2025-11-06 21:46:39.695 +05:30 [INF] Getting products by category completed for CategoryId: 1. Found 0 products
+2025-11-06 21:46:39.699 +05:30 [INF] Getting products by category completed for CategoryId: 1. Found 0 products
+2025-11-06 21:46:39.703 +05:30 [INF] Getting products by category completed for CategoryId: 1. Found 0 products
+2025-11-06 21:46:39.706 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.ProductListDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 21:46:39.709 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.ProductController.GetProductsByCategory (Kanini.Ecommerce.Api) in 152.3261ms
+2025-11-06 21:46:39.715 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetProductsByCategory (Kanini.Ecommerce.Api)'
+2025-11-06 21:46:39.719 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Product/category/1 - 200 null application/json; charset=utf-8 243.0953ms
+2025-11-06 21:46:46.427 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Product/category/2 - null null
+2025-11-06 21:46:46.509 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetProductsByCategory (Kanini.Ecommerce.Api)'
+2025-11-06 21:46:46.512 +05:30 [INF] Route matched with {action = "GetProductsByCategory", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductsByCategory(Int32) on controller Kanini.Ecommerce.Api.Controllers.ProductController (Kanini.Ecommerce.Api).
+2025-11-06 21:46:46.521 +05:30 [INF] Getting products by category started for CategoryId: 2
+2025-11-06 21:46:46.527 +05:30 [INF] Getting products by category started for CategoryId: 2
+2025-11-06 21:46:46.529 +05:30 [INF] Getting products by category started for CategoryId: 2
+2025-11-06 21:46:46.562 +05:30 [INF] Getting products by category completed for CategoryId: 2. Found 1 products
+2025-11-06 21:46:46.609 +05:30 [INF] Getting products by category completed for CategoryId: 2. Found 1 products
+2025-11-06 21:46:46.612 +05:30 [INF] Getting products by category completed for CategoryId: 2. Found 1 products
+2025-11-06 21:46:46.625 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kanini.Ecommerce.Application.DTOs.ProductListDto, Kanini.Ecommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 21:46:46.629 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.ProductController.GetProductsByCategory (Kanini.Ecommerce.Api) in 108.6362ms
+2025-11-06 21:46:46.632 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.GetProductsByCategory (Kanini.Ecommerce.Api)'
+2025-11-06 21:46:46.636 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Product/category/2 - 200 null application/json; charset=utf-8 209.3396ms
+2025-11-06 21:47:42.060 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Product/1/images - multipart/form-data; boundary=----WebKitFormBoundary8SkBUlJ3P45WWYD1 1127741
+2025-11-06 21:47:42.073 +05:30 [INF] CORS policy execution successful.
+2025-11-06 21:47:42.117 +05:30 [INF] Executing endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.UploadProductImages (Kanini.Ecommerce.Api)'
+2025-11-06 21:47:42.149 +05:30 [INF] Route matched with {action = "UploadProductImages", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadProductImages(Int32, System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]) on controller Kanini.Ecommerce.Api.Controllers.ProductController (Kanini.Ecommerce.Api).
+2025-11-06 21:47:42.315 +05:30 [INF] Product image upload started for ProductId: 1. Count: 2
+2025-11-06 21:47:42.342 +05:30 [INF] Product image upload started for ProductId: 1. Count: 2
+2025-11-06 21:47:42.376 +05:30 [INF] Product image upload started for ProductId: 1. Count: 2
+2025-11-06 21:47:43.593 +05:30 [INF] Executed DbCommand (919ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 100), @p2='?' (DbType = DateTime2), @p3='?' (Size = 100), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (Size = 500), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Int32), @p10='?' (Size = 100), @p11='?' (Size = 100), @p12='?' (DbType = DateTime2), @p13='?' (Size = 200), @p14='?' (Size = 100), @p15='?' (DbType = DateTime2), @p16='?' (Size = 100), @p17='?' (DbType = DateTime2), @p18='?' (DbType = Int32), @p19='?' (Size = 500), @p20='?' (DbType = Boolean), @p21='?' (DbType = Boolean), @p22='?' (DbType = Int32), @p23='?' (Size = 100), @p24='?' (Size = 100), @p25='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [ProductImages] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, 0),
+(@p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, 1)) AS i ([AltText], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [DisplayOrder], [ImagePath], [IsDeleted], [IsPrimary], [ProductId], [TenantId], [UpdatedBy], [UpdatedOn], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([AltText], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [DisplayOrder], [ImagePath], [IsDeleted], [IsPrimary], [ProductId], [TenantId], [UpdatedBy], [UpdatedOn])
+VALUES (i.[AltText], i.[CreatedBy], i.[CreatedOn], i.[DeletedBy], i.[DeletedOn], i.[DisplayOrder], i.[ImagePath], i.[IsDeleted], i.[IsPrimary], i.[ProductId], i.[TenantId], i.[UpdatedBy], i.[UpdatedOn])
+OUTPUT INSERTED.[ImageId], i._Position;
+2025-11-06 21:47:43.855 +05:30 [INF] Product image upload completed for ProductId: 1. Count: 2
+2025-11-06 21:47:44.009 +05:30 [INF] Product image upload completed for ProductId: 1. Count: 2
+2025-11-06 21:47:44.017 +05:30 [INF] Product image upload completed for ProductId: 1. Count: 2
+2025-11-06 21:47:44.021 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-06 21:47:44.042 +05:30 [INF] Executed action Kanini.Ecommerce.Api.Controllers.ProductController.UploadProductImages (Kanini.Ecommerce.Api) in 1888.5356ms
+2025-11-06 21:47:44.055 +05:30 [INF] Executed endpoint 'Kanini.Ecommerce.Api.Controllers.ProductController.UploadProductImages (Kanini.Ecommerce.Api)'
+2025-11-06 21:47:44.093 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Product/1/images - 200 null application/json; charset=utf-8 2032.4449ms
+2025-11-06 21:50:09.662 +05:30 [INF] Application is shutting down...

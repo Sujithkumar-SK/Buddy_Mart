@@ -1,0 +1,27 @@
+# ============================
+# 1️⃣ Build & Runtime Combined Stage
+# ============================
+FROM mcr.microsoft.com/dotnet/sdk:9.0
+WORKDIR /app
+
+# Copy the solution and project files first (for caching restore layers)
+COPY *.sln ./
+COPY Kanini.Ecommerce.*/*.csproj ./
+
+# Move each .csproj into its respective folder
+RUN for file in *.csproj; do mkdir -p ${file%.csproj} && mv $file ${file%.csproj}/; done
+
+# Restore dependencies
+RUN dotnet restore
+
+# Copy the entire backend codebase
+COPY . .
+
+# Set the working directory to the API project
+WORKDIR /app/Kanini.Ecommerce.Api
+
+# Expose the API port
+EXPOSE 5108
+
+# Run the application directly (no publish step)
+ENTRYPOINT ["dotnet", "run", "--urls", "http://0.0.0.0:5108"]

@@ -1,0 +1,72 @@
+### Test Payment Integration Flow
+
+# 1. Login as Customer
+POST https://localhost:7000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "customer1@gmail.com",
+  "password": "password123"
+}
+
+### 
+
+# 2. Add Product to Cart
+POST https://localhost:7000/api/cart/add
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "quantity": 2
+}
+
+###
+
+# 3. Create Order
+POST https://localhost:7000/api/order
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "shippingAddress": "123 Test Street, Test City, Test State - 123456",
+  "paymentMethod": "Card"
+}
+
+###
+
+# 4. Initiate Payment
+POST https://localhost:7000/api/payment/initiate
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "orderId": 1,
+  "paymentMethod": "Card",
+  "notes": "Test payment for order"
+}
+
+###
+
+# 5. Verify Payment (After Razorpay payment)
+POST https://localhost:7000/api/payment/verify
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "razorpayPaymentId": "pay_test_payment_id",
+  "razorpayOrderId": "order_test_order_id",
+  "razorpaySignature": "test_signature"
+}
+
+###
+
+# 6. Get Payment History
+GET https://localhost:7000/api/payment
+Authorization: Bearer {{accessToken}}
+
+###
+
+# 7. Get Payment Details
+GET https://localhost:7000/api/payment/1
+Authorization: Bearer {{accessToken}}

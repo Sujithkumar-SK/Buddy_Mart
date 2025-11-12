@@ -1,0 +1,51 @@
+2025-11-07 12:41:19.783 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-07 12:41:20.154 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-07 12:41:20.171 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-07 12:41:20.183 +05:30 [INF] Hosting environment: Development
+2025-11-07 12:41:20.186 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-07 12:41:29.227 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-07 12:41:29.401 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 174.2317ms
+2025-11-07 12:41:29.670 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui.css - null null
+2025-11-07 12:41:29.670 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.css - null null
+2025-11-07 12:41:29.670 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-bundle.js - null null
+2025-11-07 12:41:29.670 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-standalone-preset.js - null null
+2025-11-07 12:41:30.028 +05:30 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-11-07 12:41:30.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.css - 200 202 text/css 362.7095ms
+2025-11-07 12:41:30.043 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-07 12:41:30.055 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 12.0795ms
+2025-11-07 12:41:30.167 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-07 12:41:30.175 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 504.8146ms
+2025-11-07 12:41:30.414 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-07 12:41:30.418 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui.css - 200 152035 text/css 747.6655ms
+2025-11-07 12:41:30.913 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-07 12:41:30.924 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 1254.4056ms
+2025-11-07 12:41:31.678 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-07 12:41:32.562 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 884.0044ms
+2025-11-07 12:44:10.651 +05:30 [INF] Application is shutting down...
+2025-11-07 14:33:24.214 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-07 14:33:24.847 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-07 14:33:24.854 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-07 14:33:24.857 +05:30 [INF] Hosting environment: Development
+2025-11-07 14:33:24.860 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-07 14:39:18.798 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-07 14:39:19.352 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 738.5155ms
+2025-11-07 14:39:19.877 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-07 14:39:19.894 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 17.543ms
+2025-11-07 14:39:20.702 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-07 14:39:20.728 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/favicon-32x32.png - null null
+2025-11-07 14:39:20.969 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-07 14:39:20.978 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/favicon-32x32.png - 200 628 image/png 250.3618ms
+2025-11-07 14:39:21.430 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 728.0912ms
+2025-11-07 15:03:57.628 +05:30 [INF] Application is shutting down...
+2025-11-07 16:02:40.099 +05:30 [INF] User profile is available. Using 'C:\Users\SUJITH KUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-07 16:02:40.510 +05:30 [INF] Now listening on: http://localhost:5108
+2025-11-07 16:02:40.531 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-07 16:02:40.534 +05:30 [INF] Hosting environment: Development
+2025-11-07 16:02:40.544 +05:30 [INF] Content root path: C:\Users\SUJITH KUMAR\OneDrive\Documents\Kanini\Ecommerce_React_Api\Backend\Kanini.Ecommerce.Api
+2025-11-07 16:02:52.563 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2025-11-07 16:02:53.148 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 625.3756ms
+2025-11-07 16:02:57.379 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.js - null null
+2025-11-07 16:02:57.426 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.js - 200 null application/javascript;charset=utf-8 46.6274ms
+2025-11-07 16:03:00.396 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2025-11-07 16:03:01.156 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 760.8329ms
+2025-11-07 16:17:13.663 +05:30 [INF] Application is shutting down...

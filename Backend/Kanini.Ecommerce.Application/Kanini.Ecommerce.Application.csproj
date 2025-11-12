@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <PackageReference Include="Razorpay" />
+    <PackageReference Include="iTextSharp.LGPLv2.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kanini.Ecommerce.Domain\Kanini.Ecommerce.Domain.csproj" />
+    <ProjectReference Include="..\Kanini.Ecommerce.Common\Kanini.Ecommerce.Common.csproj" />
+    <ProjectReference Include="..\Kanini.Ecommerce.Data\Kanini.Ecommerce.Data.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>

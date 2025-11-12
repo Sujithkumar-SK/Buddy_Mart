@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Kanini.Ecommerce.Common/1.0.0": {
+        "runtime": {
+          "Kanini.Ecommerce.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kanini.Ecommerce.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
