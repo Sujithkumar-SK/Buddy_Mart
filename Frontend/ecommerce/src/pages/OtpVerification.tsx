@@ -24,13 +24,12 @@ const OtpVerification: React.FC = () => {
   const location = useLocation();
   const { email, otpToken, role, formData, type } = location.state as LocationState || {};
 
-  // Redirect if no state data
+  
   if (!email || !otpToken || !type) {
     navigate(type === 'forgot-password' ? '/forgot-password' : '/register');
     return null;
   }
 
-  // Timer countdown effect
   useEffect(() => {
     if (timer > 0) {
       const interval = setInterval(() => {

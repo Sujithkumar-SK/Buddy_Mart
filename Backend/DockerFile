@@ -1,27 +1,47 @@
 # ============================
-# 1️⃣ Build & Runtime Combined Stage
+# Stage 1: Build
 # ============================
-FROM mcr.microsoft.com/dotnet/sdk:9.0
-WORKDIR /app
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /src
 
-# Copy the solution and project files first (for caching restore layers)
+# Copy solution and project files
 COPY *.sln ./
-COPY Kanini.Ecommerce.*/*.csproj ./
-
-# Move each .csproj into its respective folder
-RUN for file in *.csproj; do mkdir -p ${file%.csproj} && mv $file ${file%.csproj}/; done
+COPY Kanini.Ecommerce.Api/*.csproj ./Kanini.Ecommerce.Api/
+COPY Kanini.Ecommerce.Application/*.csproj ./Kanini.Ecommerce.Application/
+COPY Kanini.Ecommerce.Data/*.csproj ./Kanini.Ecommerce.Data/
+COPY Kanini.Ecommerce.Domain/*.csproj ./Kanini.Ecommerce.Domain/
+COPY Kanini.Ecommerce.Common/*.csproj ./Kanini.Ecommerce.Common/
+COPY Directory.Packages.props ./
 
 # Restore dependencies
 RUN dotnet restore
 
-# Copy the entire backend codebase
+# Copy source code
 COPY . .
 
-# Set the working directory to the API project
-WORKDIR /app/Kanini.Ecommerce.Api
+# Build and publish
+WORKDIR /src/Kanini.Ecommerce.Api
+RUN dotnet publish -c Release -o /app/publish --no-restore
 
-# Expose the API port
+# ============================
+# Stage 2: Runtime
+# ============================
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
+WORKDIR /app
+
+# Create non-root user
+RUN adduser --disabled-password --gecos '' appuser && chown -R appuser /app
+USER appuser
+
+# Copy published app
+COPY --from=build /app/publish .
+
+# Expose port
 EXPOSE 5108
 
-# Run the application directly (no publish step)
-ENTRYPOINT ["dotnet", "run", "--urls", "http://0.0.0.0:5108"]
+# Set environment
+ENV ASPNETCORE_URLS=http://+:5108
+ENV ASPNETCORE_ENVIRONMENT=Production
+
+# Start application
+ENTRYPOINT ["dotnet", "Kanini.Ecommerce.Api.dll"]
