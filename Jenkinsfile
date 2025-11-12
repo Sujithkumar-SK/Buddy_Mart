@@ -84,7 +84,7 @@ pipeline {
                     echo "🚀 Deploying application..."
                     
                     # Stop existing containers
-                    docker-compose down || true
+                    docker compose down || true
                     
                     # Create network if not exists
                     docker network create $DOCKER_NETWORK || true
@@ -94,13 +94,13 @@ pipeline {
                     docker pull $BACKEND_IMAGE:latest
                     
                     # Start application
-                    docker-compose up -d
+                    docker compose up -d
                     
                     # Wait for containers to start
                     sleep 30
                     
                     # Check container status
-                    docker-compose ps
+                    docker compose ps
                 '''
             }
         }
@@ -117,7 +117,7 @@ pipeline {
                     curl -f http://localhost/health || echo "Frontend health check failed"
                     
                     # Show container logs
-                    docker-compose logs --tail=50
+                    docker compose logs --tail=50
                 '''
             }
         }
@@ -132,7 +132,7 @@ pipeline {
         }
         failure {
             echo "❌ Deployment failed!"
-            sh 'docker-compose logs'
+            sh 'docker compose logs'
         }
     }
 }
