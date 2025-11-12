@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // 🔗 Your actual repository
-        REPO_URL = 'https://github.com/YOUR_USERNAME/Ecommerce_React_Api.git'
+        REPO_URL = 'https://github.com/Sujithkumar-SK/Buddy_Mart.git'
         
         // 🔐 Docker Hub credentials
         DOCKERHUB_CREDENTIALS = 'b1e5d709-e852-49b8-a76f-c5d5a164a31d'
